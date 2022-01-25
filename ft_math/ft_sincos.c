@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 14:03:32 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 16:04:19 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 17:44:58 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,18 @@ float	ft_sin(float x, int limit)
 		j += 2;
 	}
 	return (result);
+}
+
+float	ft_sin(float x)
+{
+	float		y;
+	const float	b = 4 / M_PI;
+	const float	c = -4 / (M_S_PI);
+	const float	p = 0.225;
+
+	y = b * x + c * x * ft_abs(x);
+	y = p * (y * ft_abs(y) - y) + y;
+	return (y);
 }
 
 float	ft_cos(float x, int limit)

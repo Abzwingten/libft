@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:11 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 16:04:37 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 17:44:51 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,11 @@
 # define LIBFT_H
 
 # ifndef M_PI
-#  define M_PI 3.14159265358979323846264338327950288
+#  define M_PI 3.141592653589793
+#  define M_H_PI 1.570796326794897
+#  define M_D_PI 6.283185307179586
+#  define M_S_PI 9.869604401089358
+
 # endif
 
 # include <unistd.h>
@@ -97,6 +101,7 @@ float	ft_invsqrt(float number);
 float	ft_2degrees(float radians);
 float	ft_2radians(float radians);
 float	ft_sin(float x, int limit);
+float	ft_sin(float x);
 float	ft_cos(float x, int limit);
 UI		ft_factorial(UI num);
 
