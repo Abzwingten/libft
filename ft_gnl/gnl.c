@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/09 16:14:44 by sherbert          #+#    #+#             */
-/*   Updated: 2021/12/30 21:40:02 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 14:50:29 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,58 +27,58 @@ static int	check_error_case(char **s_buf, char **line, int *ret)
 
 static char	*save_buf(char **s_buf, char **line, int *ret)
 {
-	char		*n;
+	char		*num;
 
 	*ret = 1;
-	n = NULL;
+	num = NULL;
 	if (*s_buf)
 	{
-		n = ft_strchr(*s_buf, '\n');
-		if (n)
-			*n++ = '\0';
+		num = ft_strchr(*s_buf, '\n');
+		if (num)
+			*num++ = '\0';
 		*line = ft_strdup_gnl(*s_buf, ret);
-		if (n)
-			ft_strcpy(*s_buf, n);
+		if (num)
+			ft_strcpy(*s_buf, num);
 		else
 			save_free(s_buf);
 	}
 	else
 		*line = ft_strdup_gnl("\0", ret);
-	return (n);
+	return (num);
 }
 
-static void	init_ret_n(int *ret, char **n, int fd, char **line)
+static void	init_ret_n(int *ret, char **num, int fd, char **line)
 {
-	*n = NULL;
+	*num = NULL;
 	*ret = 0;
 	if (fd < 0 || BUFFER_SIZE < 1 || !line)
 		*ret = -1;
 }
 
-static void	check_n(char **s_buf, char *n, int *ret)
+static void	check_n(char **s_buf, char *num, int *ret)
 {
 	save_free(s_buf);
-	*s_buf = ft_strdup_gnl(n, ret);
+	*s_buf = ft_strdup_gnl(num, ret);
 }
 
 int	get_next_line(int fd, char **line)
 {
 	char		buf[BUFFER_SIZE + 1];
 	static char	*s_buf = NULL;
-	char		*n;
+	char		*num;
 	char		*tmp;
 	int			ret;
 
-	init_ret_n(&ret, &n, fd, line);
+	init_ret_n(&ret, &num, fd, line);
 	if (!ret)
-		n = save_buf(&s_buf, line, &ret);
-	while (!n && ret > 0)
+		num = save_buf(&s_buf, line, &ret);
+	while (!num && ret > 0)
 	{
 		ret = read(fd, buf, BUFFER_SIZE);
 		buf[ret] = '\0';
-		n = ft_strchr(buf, '\n');
-		if (n)
-			check_n(&s_buf, ++n, &ret);
+		num = ft_strchr(buf, '\n');
+		if (num)
+			check_n(&s_buf, ++num, &ret);
 		tmp = *line;
 		*line = ft_strjoin_gnl(*line, buf, &ret);
 		save_free(&tmp);

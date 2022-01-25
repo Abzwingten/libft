@@ -1,14 +1,14 @@
 NAME		:=	libft.a
 
 
-CC_FLAGS	:=	-Wall -Wextra -Werror -Iincludes/ -O2
+CC_FLAGS	:=	-Wall -Wextra -Werror -Iincludes/ -O2 
 CC			:=	gcc $(CC_FLAGS)
 
 HEADER_LIB	:=	$(addsuffix .h, $(addprefix includes/, libft get_next_line ft_printf))
 
 FT_IS		:=	alnum alpha ascii count digit in print space spacenl where minmax
 FT_LST 		:=	add_back add_front clear delone iter last map new size
-FT_MATH		:=	abs nbrlen hexlen baselen power invsqrt degrad
+FT_MATH		:=	abs nbrlen hexlen baselen power invsqrt degrad sincos ffact
 FT_MEM 		:=	bzero calloc memccpy memchr memcmp memcpy memfree memmove memset intswap
 FT_PUT 		:=	char endl nbr str char_fd endl_fd nbr_fd str_fd
 FT_STR 		:=	chr cmp dup join lcat lcpy cpy len mapi ncmp nstr rchr trim iteri

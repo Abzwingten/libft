@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
+/*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:20 by rantario          #+#    #+#             */
-/*   Updated: 2021/10/20 14:54:52 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 13:40:14 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,48 +27,48 @@ int	ft_div(int len)
 	return (i);
 }
 
-int	ft_nbr_len(int n)
+int	ft_nbr_len(int num)
 {
 	int	digits;
 
 	digits = 1;
-	if (n < 0)
+	if (num < 0)
 	{
 		digits++;
-		n *= -1;
+		num *= -1;
 	}
-	while (n > 9)
+	while (num > 9)
 	{
-		n /= 10;
+		num /= 10;
 		digits++;
 	}
 	return (digits);
 }
 
-char	*ft_itoa(int n)
+char	*ft_itoa(int num)
 {
 	char	*str;
 	int		i;
 	int		len;
 	int		const_len;
 
-	if (n == -2147483648)
+	if (num == -2147483648)
 		return (ft_strdup("-2147483648"));
-	len = ft_nbr_len(n);
+	len = ft_nbr_len(num);
 	const_len = len;
 	i = 0;
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (str == NULL)
 		return (NULL);
-	if (n < 0)
+	if (num < 0)
 	{
-		n *= -1;
+		num *= -1;
 		str[0] = '-';
 		i++;
 		len--;
 	}
 	while (i < const_len)
-		str[i++] = (n / ft_div(len--) % 10) + 48;
+		str[i++] = (num / ft_div(len--) % 10) + 48;
 	str[i] = '\0';
 	return (str);
 }

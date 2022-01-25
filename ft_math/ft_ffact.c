@@ -1,33 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_ffact.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/04 12:26:14 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 14:54:05 by rantario         ###   ########.fr       */
+/*   Created: 2022/01/25 13:29:38 by rantario          #+#    #+#             */
+/*   Updated: 2022/01/25 13:40:14 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-static void	write_nbr(long long int num)
+UI	ft_factorial(UI num)
 {
-	if (num < 0)
-	{
-		ft_putchar('-');
-		num *= -1;
-	}
-	if (num >= 10)
-		write_nbr(num / 10);
-	ft_putchar(num % 10 + '0');
-}
-
-void	ft_putnbr(int n)
-{
-	LLI	num;
-
-	num = n;
-	write_nbr(num);
+	if (num == 0)
+		return (1);
+	return (num * ft_factorial(num - 1));
 }

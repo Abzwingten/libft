@@ -6,13 +6,13 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/30 18:58:23 by rantario          #+#    #+#             */
-/*   Updated: 2021/12/30 18:58:25 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 13:40:14 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-void	ft_bzero(void *str, size_t n)
+void	ft_bzero(void *str, size_t num)
 {
-	ft_memset(str, '\0', n);
+	ft_memset(str, '\0', num);
 }

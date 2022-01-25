@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 13:11:38 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/09 13:11:46 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/25 13:40:14 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,6 +98,6 @@ void			ft_choose_conversion(t_bin *bin, va_list args);
 void			ft_pad_left(char **src, char pad, int width);
 void			ft_pad_right(char **src, char pad, int width);
 void			ft_prefix(t_bin *bin);
-char			*ft_uitoa_base(uintmax_t n, const char *base);
+char			*ft_uitoa_base(uintmax_t num, const char *base);
 
 #endif
