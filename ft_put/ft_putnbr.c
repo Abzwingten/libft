@@ -6,22 +6,22 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 12:26:14 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 14:54:05 by rantario         ###   ########.fr       */
+/*   Updated: 2021/12/30 18:54:02 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-static void	write_nbr(long long int num)
+static void	write_nbr(long long int n)
 {
-	if (num < 0)
+	if (n < 0)
 	{
 		ft_putchar('-');
-		num *= -1;
+		n *= -1;
 	}
-	if (num >= 10)
-		write_nbr(num / 10);
-	ft_putchar(num % 10 + '0');
+	if (n >= 10)
+		write_nbr(n / 10);
+	ft_putchar(n % 10 + '0');
 }
 
 void	ft_putnbr(int n)

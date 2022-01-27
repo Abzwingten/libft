@@ -6,13 +6,11 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/30 18:12:41 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 15:29:34 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/24 17:01:19 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
-
-int	ft_power(int num, UI power)
+int	ft_power(int num, unsigned int power)
 {
 	int	res;
 
@@ -25,22 +23,4 @@ int	ft_power(int num, UI power)
 		num >>= 1;
 	}
 	return (res);
-}
-
-float	ft_powerf(float num, int power)
-{
-	float	temp;
-
-	if (power == 0)
-		return (1);
-	temp = ft_powerf (num, power / 2);
-	if ((power % 2) == 0)
-		return (temp * temp);
-	else
-	{
-		if (power > 0)
-			return (num * temp * temp);
-		else
-			return ((temp * temp) / num);
-	}
 }

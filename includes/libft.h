@@ -6,23 +6,17 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:11 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 17:44:51 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/24 17:01:49 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# ifndef M_PI
-#  define M_PI 3.141592653589793
-#  define M_H_PI 1.570796326794897
-#  define M_D_PI 6.283185307179586
-#  define M_S_PI 9.869604401089358
-
-# endif
-
 # include <unistd.h>
 # include <stdlib.h>
+# include "get_next_line.h"
+# include "ft_printf.h"
 
 # define UI unsigned int 
 # define ULI unsigned long int 
@@ -42,12 +36,12 @@ char	ft_linebreak(char *line);
 char	**ft_split_str(char const *s, char *c);
 
 int		ft_atoi(const char *str);
-char	*ft_itoa(int num);
+char	*ft_itoa(int n);
 
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
-int		ft_strncmp(const char *s1, const char *s2, size_t num);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strcpy(char *dest, char *src);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
@@ -58,20 +52,24 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(const char *str, UI start, size_t len);
 char	*ft_strmapi(char const *s, char (*f)(UI, char));
 void	ft_striteri(char *s, void (*f)(UI, char *));
+char	*ft_strappend(char *s1, char *s2);
+char	*ft_strnew(size_t size);
 void	save_free(char **str);
 
-void	ft_bzero(void *str, size_t num);
+void	ft_bzero(void *str, size_t n);
 void	*ft_calloc(size_t num, size_t size);
 char	*ft_strdup(const char *str);
 void	ft_intswap(int *a, int *b);
 
-void	*ft_memset(void *str, int c, size_t num);
-void	*ft_memmove(void *dest, const void *src, size_t num);
-void	*ft_memcpy(void *dest, const void *src, size_t num);
-void	*ft_memccpy(void *dest, const void *src, int c, size_t num);
-int		ft_memcmp(const void *s1, const void *s2, size_t num);
-void	*ft_memchr(const void *str, int c, size_t num);
+void	*ft_memset(void *str, int c, size_t n);
+void	*ft_memmove(void *dest, const void *src, size_t n);
+void	*ft_memcpy(void *dest, const void *src, size_t n);
+void	*ft_memccpy(void *dest, const void *src, int c, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+void	*ft_memchr(const void *str, int c, size_t n);
 void	*ft_memfree(void **ptr);
+void	*ft_memalloc(size_t size);
+void	ft_memdel(void **ap);
 
 void	quick_sort(int *arr, int low, int high);
 
@@ -96,24 +94,19 @@ int		ft_hexlen(long num);
 float	ft_invsqrt(float x);
 int		ft_nbrlen(long num);
 int		ft_power(int num, unsigned int power);
-float	ft_powerf(float num, int power);
 float	ft_invsqrt(float number);
-float	ft_2degrees(float radians);
-float	ft_2radians(float radians);
-float	ft_sin(float x, int limit);
-float	ft_sin(float x);
-float	ft_cos(float x, int limit);
-UI		ft_factorial(UI num);
+float	to_degrees(float radians);
+float	to_radians(float degrees);
 
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putendl_fd(char *s, int fd);
-void	ft_putnbr_fd(int num, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 void	ft_putstr(char *s);
 void	ft_putchar(char c);
 void	ft_putendl(char *s);
-void	ft_putnbr(int num);
+void	ft_putnbr(int n);
 
 t_list	*ft_lstnew(void *content);
 int		ft_lstsize(t_list *lst);

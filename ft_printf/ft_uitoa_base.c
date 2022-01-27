@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 17:13:33 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/25 13:40:14 by rantario         ###   ########.fr       */
+/*   Updated: 2022/01/09 17:35:47 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,15 +36,15 @@ static int	ft_base_error(const char *base)
 	return (0);
 }
 
-static size_t	ft_digit_counter(uintmax_t num, size_t base_len)
+static size_t	ft_digit_counter(uintmax_t n, size_t base_len)
 {
-	if (!(num / base_len))
+	if (!(n / base_len))
 		return (1);
 	else
-		return (ft_digit_counter(num / base_len, base_len) + 1);
+		return (ft_digit_counter(n / base_len, base_len) + 1);
 }
 
-char	*ft_uitoa_base(uintmax_t num, const char *base)
+char	*ft_uitoa_base(uintmax_t n, const char *base)
 {
 	char	*s;
 	size_t	len;
@@ -53,15 +53,15 @@ char	*ft_uitoa_base(uintmax_t num, const char *base)
 	if (ft_base_error(base))
 		return (NULL);
 	base_len = ft_strlen(base);
-	len = ft_digit_counter(num, base_len);
+	len = ft_digit_counter(n, base_len);
 	s = malloc((len + 1) * sizeof(*s));
 	if (!s)
 		return (NULL);
 	s[len] = '\0';
 	while (len--)
 	{
-		s[len] = base[num % base_len];
-		num /= base_len;
+		s[len] = base[n % base_len];
+		n /= base_len;
 	}
 	return (s);
 }
