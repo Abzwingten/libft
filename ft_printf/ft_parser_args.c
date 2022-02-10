@@ -38,7 +38,7 @@ void	ft_parser_width(t_format *f, t_bin *bin)
 		return ;
 	if (f->input[f->pos] == '*')
 	{
-		bin->width = ft_parser_asterix(WIDTH, f, bin);
+		bin->width = ft_parser_asterix(FT_WIDTH, f, bin);
 		f->pos++;
 	}
 	else

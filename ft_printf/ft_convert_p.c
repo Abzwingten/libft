@@ -12,9 +12,9 @@
 
 #include "../includes/ft_printf.h"
 
-static void	ft_convert(t_bin *bin, void *p)
+static void ft_convert(t_bin *bin, void *point)
 {
-	if (!p)
+	if (!point)
 	{
 		if (!bin->precision)
 			bin->replace = ft_strdup(STR_EMPTY);
@@ -22,7 +22,7 @@ static void	ft_convert(t_bin *bin, void *p)
 			bin->replace = ft_strdup("0");
 	}
 	else
-		bin->replace = ft_uitoa_base((uintptr_t)p, HEX_BASE_L);
+		bin->replace = ft_uitoa_base((uintptr_t)point, HEX_BASE_L);
 	bin->len = ft_strlen(bin->replace);
 	if (bin->precision > (int)bin->len)
 		bin->len = bin->precision;
@@ -37,9 +37,9 @@ static void	ft_convert(t_bin *bin, void *p)
 
 void	ft_convert_p(t_bin *bin, va_list args)
 {
-	void	*p;
+	void *point;
 
-	p = va_arg(args, void *);
-	ft_convert(bin, p);
+	point = va_arg(args, void *);
+	ft_convert(bin, point);
 	bin->len = ft_strlen(bin->replace);
 }

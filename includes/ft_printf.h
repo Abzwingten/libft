@@ -29,7 +29,7 @@
 # define ZERO		'0'
 # define X			'x'
 
-# define WIDTH		0
+#define FT_WIDTH 0
 # define PRECISION	1
 
 # define FLAG_MINUS	1
