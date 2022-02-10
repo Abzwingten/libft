@@ -55,6 +55,7 @@ void	ft_striteri(char *s, void (*f)(UI, char *));
 char	*ft_strappend(char *s1, char *s2);
 char	*ft_strnew(size_t size);
 void	save_free(char **str);
+size_t ft_strspn(const char *str, const char *chars);
 
 void	ft_bzero(void *str, size_t n);
 void	*ft_calloc(size_t num, size_t size);

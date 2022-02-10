@@ -1,0 +1,934 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Feb 10 15:05:38 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 22)
+SRC := ft_is/ft_isalnum.c ft_is/ft_isalpha.c ft_is/ft_isascii.c ft_is/ft_iscount.c ft_is/ft_isdigit.c ft_is/ft_isin.c ft_is/ft_isprint.c ft_is/ft_isspace.c ft_is/ft_isspacenl.c ft_is/ft_iswhere.c ft_is/ft_isminmax.c ft_lst/ft_lstadd_back.c ft_lst/ft_lstadd_front.c ft_lst/ft_lstclear.c ft_lst/ft_lstdelone.c ft_lst/ft_lstiter.c ft_lst/ft_lstlast.c ft_lst/ft_lstmap.c ft_lst/ft_lstnew.c ft_lst/ft_lstsize.c ft_math/ft_abs.c ft_math/ft_nbrlen.c ft_math/ft_hexlen.c ft_math/ft_baselen.c ft_math/ft_power.c ft_math/ft_degrad.c ft_mem/ft_bzero.c ft_mem/ft_calloc.c ft_mem/ft_memccpy.c ft_mem/ft_memchr.c ft_mem/ft_memcmp.c ft_mem/ft_memcpy.c ft_mem/ft_memfree.c ft_mem/ft_memmove.c ft_mem/ft_memset.c ft_mem/ft_memalloc.c ft_mem/ft_memdel.c ft_mem/ft_intswap.c ft_put/ft_putchar.c ft_put/ft_putendl.c ft_put/ft_putnbr.c ft_put/ft_putstr.c ft_put/ft_putchar_fd.c ft_put/ft_putendl_fd.c ft_put/ft_putnbr_fd.c ft_put/ft_putstr_fd.c  ft_str/ft_strchr.c ft_str/ft_strcmp.c ft_str/ft_strdup.c ft_str/ft_strjoin.c ft_str/ft_strlcat.c ft_str/ft_strlcpy.c ft_str/ft_strcpy.c ft_str/ft_strlen.c ft_str/ft_strmapi.c ft_str/ft_strncmp.c ft_str/ft_strnstr.c ft_str/ft_strrchr.c ft_str/ft_strtrim.c ft_str/ft_striteri.c ft_str/ft_strappend.c ft_str/ft_strnew.c ft_str/ft_substr.c ft_str/ft_split.c ft_str/ft_split_str.c ft_str/ft_save_free.c ft_str/ft_linebreak.c ft_to/ft_tolower.c ft_to/ft_toupper.c ft_to/ft_atoi.c ft_to/ft_itoa.c ft_gnl/gnl.c ft_gnl/utils_gnl.c ft_printf/ft_choose.c ft_printf/ft_convert_c.c ft_printf/ft_convert_d.c ft_printf/ft_convert_p.c ft_printf/ft_convert_pct.c ft_printf/ft_convert_s.c ft_printf/ft_convert_u.c ft_printf/ft_initializer.c ft_printf/ft_parser_args.c ft_printf/ft_parser_asterix.c ft_printf/ft_parser.c ft_printf/ft_place_bin.c ft_printf/ft_printf.c ft_printf/ft_uitoa_base.c ft_sort/ft_sort_quick.c 
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/matt/.gtkrc:/home/matt/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-cfc9bec0-1555-44e4-a44d-ebf65ec9c343.sock
+# environment
+VSCODE_CWD = /home/matt
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/matt/Documents/GIT/ECOLE42/libft
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/matt
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/matt/.config/Code - OSS/CachedData/d6ee99e4c045a6716e5c653d7da8e9ae6f5a8b03
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/matt/.Xauthority
+# default
+ 
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/matt/Documents/GIT/ECOLE42/libft
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 7)
+HEADER_LIB := includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# environment
+XDG_CONFIG_DIRS = /home/matt/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = plasma
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"Code - OSS","submitURL":"","uploadToServer":false}
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 45824
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 9)
+FT_IS := alnum alpha ascii count digit in print space spacenl where minmax
+# environment
+SESSION_MANAGER = local/mattarch:@/tmp/.ICE-unix/954,unix/mattarch:/tmp/.ICE-unix/954
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 40)
+COLOR = \033[0;45m
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 17)
+FT_GNL := gnl utils_gnl
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/matt/.config/Code - OSS/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 16)
+FT_TO := tolower toupper atoi itoa
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 20)
+FT_SORT := quick
+# makefile (from 'Makefile', line 14)
+FT_STR := chr cmp dup join lcat lcpy cpy len mapi ncmp nstr rchr trim iteri append new
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# makefile (from 'Makefile', line 1)
+NAME := libft.a
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# makefile (from 'Makefile', line 11)
+FT_MATH := abs nbrlen hexlen baselen power degrad
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = matt
+# environment
+XDG_VTNR = 7
+# makefile (from 'Makefile', line 41)
+NC = \033[0m 
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 877
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = matt
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# makefile (from 'Makefile', line 13)
+FT_PUT := char endl nbr str char_fd endl_fd nbr_fd str_fd
+# makefile (from 'Makefile', line 18)
+FT_PRINTF := choose convert_c convert_d convert_p convert_pct convert_s convert_u initializer parser_args parser_asterix parser place_bin printf uitoa_base
+# makefile (from 'Makefile', line 36)
+OBJ_LIB := ft_is/ft_isalnum.o ft_is/ft_isalpha.o ft_is/ft_isascii.o ft_is/ft_iscount.o ft_is/ft_isdigit.o ft_is/ft_isin.o ft_is/ft_isprint.o ft_is/ft_isspace.o ft_is/ft_isspacenl.o ft_is/ft_iswhere.o ft_is/ft_isminmax.o ft_lst/ft_lstadd_back.o ft_lst/ft_lstadd_front.o ft_lst/ft_lstclear.o ft_lst/ft_lstdelone.o ft_lst/ft_lstiter.o ft_lst/ft_lstlast.o ft_lst/ft_lstmap.o ft_lst/ft_lstnew.o ft_lst/ft_lstsize.o ft_math/ft_abs.o ft_math/ft_nbrlen.o ft_math/ft_hexlen.o ft_math/ft_baselen.o ft_math/ft_power.o ft_math/ft_degrad.o ft_mem/ft_bzero.o ft_mem/ft_calloc.o ft_mem/ft_memccpy.o ft_mem/ft_memchr.o ft_mem/ft_memcmp.o ft_mem/ft_memcpy.o ft_mem/ft_memfree.o ft_mem/ft_memmove.o ft_mem/ft_memset.o ft_mem/ft_memalloc.o ft_mem/ft_memdel.o ft_mem/ft_intswap.o ft_put/ft_putchar.o ft_put/ft_putendl.o ft_put/ft_putnbr.o ft_put/ft_putstr.o ft_put/ft_putchar_fd.o ft_put/ft_putendl_fd.o ft_put/ft_putnbr_fd.o ft_put/ft_putstr_fd.o ft_str/ft_strchr.o ft_str/ft_strcmp.o ft_str/ft_strdup.o ft_str/ft_strjoin.o ft_str/ft_strlcat.o ft_str/ft_strlcpy.o ft_str/ft_strcpy.o ft_str/ft_strlen.o ft_str/ft_strmapi.o ft_str/ft_strncmp.o ft_str/ft_strnstr.o ft_str/ft_strrchr.o ft_str/ft_strtrim.o ft_str/ft_striteri.o ft_str/ft_strappend.o ft_str/ft_strnew.o ft_str/ft_substr.o ft_str/ft_split.o ft_str/ft_split_str.o ft_str/ft_save_free.o ft_str/ft_linebreak.o ft_to/ft_tolower.o ft_to/ft_toupper.o ft_to/ft_atoi.o ft_to/ft_itoa.o ft_gnl/gnl.o ft_gnl/utils_gnl.o ft_printf/ft_choose.o ft_printf/ft_convert_c.o ft_printf/ft_convert_d.o ft_printf/ft_convert_p.o ft_printf/ft_convert_pct.o ft_printf/ft_convert_s.o ft_printf/ft_convert_u.o ft_printf/ft_initializer.o ft_printf/ft_parser_args.o ft_printf/ft_parser_asterix.o ft_printf/ft_parser.o ft_printf/ft_place_bin.o ft_printf/ft_printf.o ft_printf/ft_uitoa_base.o ft_sort/ft_sort_quick.o
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 12)
+FT_MEM := bzero calloc memccpy memchr memcmp memcpy memfree memmove memset memalloc memdel intswap 
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/matt/.gtkrc-2.0:/home/matt/.config/gtkrc-2.0
+# environment
+HOME = /home/matt
+# makefile (from 'Makefile', line 15)
+FT_SUB := substr split split_str save_free linebreak
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-845cc839-1.64.1-main.sock
+# makefile (from 'Makefile', line 10)
+FT_LST := add_back add_front clear delone iter last map new size
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/matt
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 5)
+CC := gcc -Wall -Wextra -Werror -Iincludes/ -O2
+# environment
+KDE_FULL_SESSION = true
+# environment
+GDMSESSION = plasma
+# makefile (from 'Makefile', line 4)
+CC_FLAGS := -Wall -Wextra -Werror -Iincludes/ -O2
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=13/169=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2081, inode 20040): 17 files, no impossibilities.
+# includes (device 2081, inode 21036): 5 files, no impossibilities so far.
+# ft_is (device 2081, inode 21027): 3 files, no impossibilities so far.
+
+# 25 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.o: %.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+#  recipe to execute (from 'Makefile', line 52):
+	@${CC} ${CС_FLAGS} -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+ft_str/ft_strcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putnbr_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libft.a: ft_is/ft_isalnum.o ft_is/ft_isalpha.o ft_is/ft_isascii.o ft_is/ft_iscount.o ft_is/ft_isdigit.o ft_is/ft_isin.o ft_is/ft_isprint.o ft_is/ft_isspace.o ft_is/ft_isspacenl.o ft_is/ft_iswhere.o ft_is/ft_isminmax.o ft_lst/ft_lstadd_back.o ft_lst/ft_lstadd_front.o ft_lst/ft_lstclear.o ft_lst/ft_lstdelone.o ft_lst/ft_lstiter.o ft_lst/ft_lstlast.o ft_lst/ft_lstmap.o ft_lst/ft_lstnew.o ft_lst/ft_lstsize.o ft_math/ft_abs.o ft_math/ft_nbrlen.o ft_math/ft_hexlen.o ft_math/ft_baselen.o ft_math/ft_power.o ft_math/ft_degrad.o ft_mem/ft_bzero.o ft_mem/ft_calloc.o ft_mem/ft_memccpy.o ft_mem/ft_memchr.o ft_mem/ft_memcmp.o ft_mem/ft_memcpy.o ft_mem/ft_memfree.o ft_mem/ft_memmove.o ft_mem/ft_memset.o ft_mem/ft_memalloc.o ft_mem/ft_memdel.o ft_mem/ft_intswap.o ft_put/ft_putchar.o ft_put/ft_putendl.o ft_put/ft_putnbr.o ft_put/ft_putstr.o ft_put/ft_putchar_fd.o ft_put/ft_putendl_fd.o ft_put/ft_putnbr_fd.o ft_put/ft_putstr_fd.o ft_str/ft_strchr.o ft_str/ft_strcmp.o ft_str/ft_strdup.o ft_str/ft_strjoin.o ft_str/ft_strlcat.o ft_str/ft_strlcpy.o ft_str/ft_strcpy.o ft_str/ft_strlen.o ft_str/ft_strmapi.o ft_str/ft_strncmp.o ft_str/ft_strnstr.o ft_str/ft_strrchr.o ft_str/ft_strtrim.o ft_str/ft_striteri.o ft_str/ft_strappend.o ft_str/ft_strnew.o ft_str/ft_substr.o ft_str/ft_split.o ft_str/ft_split_str.o ft_str/ft_save_free.o ft_str/ft_linebreak.o ft_to/ft_tolower.o ft_to/ft_toupper.o ft_to/ft_atoi.o ft_to/ft_itoa.o ft_gnl/gnl.o ft_gnl/utils_gnl.o ft_printf/ft_choose.o ft_printf/ft_convert_c.o ft_printf/ft_convert_d.o ft_printf/ft_convert_p.o ft_printf/ft_convert_pct.o ft_printf/ft_convert_s.o ft_printf/ft_convert_u.o ft_printf/ft_initializer.o ft_printf/ft_parser_args.o ft_printf/ft_parser_asterix.o ft_printf/ft_parser.o ft_printf/ft_place_bin.o ft_printf/ft_printf.o ft_printf/ft_uitoa_base.o ft_sort/ft_sort_quick.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 48):
+	@$(AR) rcs $(NAME) $?
+	@echo -e "${COLOR}MEGA LIBFT DONE${NC}"
+
+# Not a target:
+ft_mem/ft_bzero.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strcmp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strrchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_linebreak.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putstr_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strtrim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstmap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memdel.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_parser_asterix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_isminmax.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-27 22:20:37.7438175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_math/ft_power.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putchar.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_split_str.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_d.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_isalnum.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:08:30.8409093
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_is/ft_isspacenl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_choose.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_isspace.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_to/ft_tolower.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@$(RM) -rf $(OBJ_LIB)
+
+# Not a target:
+ft_printf/ft_place_bin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+includes/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-27 22:20:37.7444276
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_is/ft_isin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_split.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+includes/ft_printf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:08:30.8470392
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_printf/ft_initializer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memcmp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_intswap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strmapi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_printf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstlast.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_uitoa_base.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_gnl/gnl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strlcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strdup.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_to/ft_itoa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_parser.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memmove.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_calloc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstdelone.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_save_free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_sort/ft_sort_quick.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memalloc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_p.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_gnl/utils_gnl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstiter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: libft.a
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+ft_is/ft_isascii.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fclean: clean
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	@$(RM) -f $(NAME)
+
+# Not a target:
+ft_is/ft_isdigit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_parser_args.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstadd_front.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_pct.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memccpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_iswhere.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ft_is/ft_isalnum.o: ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ft_is/ft_isalnum'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := ft_is/ft_isalnum.o
+# automatic
+# * := ft_is/ft_isalnum
+# automatic
+# < := ft_is/ft_isalnum.c
+# automatic
+# + := ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# % := 
+# automatic
+# ^ := ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# ? := ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 52):
+	@${CC} ${CС_FLAGS} -c $< -o $@
+
+# Not a target:
+ft_put/ft_putendl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+includes/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-27 22:13:26.3537098
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_put/ft_putnbr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_math/ft_baselen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_math/ft_abs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_math/ft_nbrlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_iscount.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memset.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putendl_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_isprint.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strappend.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_to/ft_toupper.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strnstr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+norm:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	@norminette $(SRC) $(HEADER)
+
+# Not a target:
+ft_str/ft_striteri.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putchar_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strjoin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstadd_back.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_math/ft_degrad.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstclear.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_mem/ft_memfree.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_is/ft_isalpha.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_to/ft_atoi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstnew.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean fclean re norm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strlcat.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_substr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_lst/ft_lstsize.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_printf/ft_convert_u.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_math/ft_hexlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_put/ft_putstr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strncmp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_str/ft_strnew.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=8/224=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 127 / storage = 2182 B / avg = 17 B
+# current buf: size = 8162 B / used = 2182 B / count = 127 / avg = 17 B
+
+# strcache performance: lookups = 161 / hit rate = 21%
+# hash-table stats:
+# Load=127/8192=2%, Rehash=0, Collisions=0/161=0%
+# Finished Make data base on Thu Feb 10 15:05:38 2022
+
+ 
