@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:11 by rantario          #+#    #+#             */
-/*   Updated: 2022/05/11 20:17:20 by rantario         ###   ########.fr       */
+/*   Updated: 2022/05/11 20:44:57 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include "ft_printf.h"
 # include "ft_btree.h"
 
-# ifndef M_PI 
+# ifndef M_PI
 #  define M_PI 3.14159265358979323846264338327950288
 # endif
 
@@ -60,7 +60,7 @@ void	ft_striteri(char *s, void (*f)(UI, char *));
 char	*ft_strappend(char *s1, char *s2);
 char	*ft_strnew(size_t size);
 void	save_free(char **str);
-size_t  ft_strspn(const char *str, const char *chars);
+size_t	ft_strspn(const char *str, const char *chars);
 
 void	ft_bzero(void *str, size_t n);
 void	*ft_calloc(size_t num, size_t size);
@@ -103,7 +103,7 @@ int		ft_power(int num, unsigned int power);
 float	ft_invsqrt(float number);
 float	to_degrees(float radians);
 float	to_radians(float degrees);
-UI      ft_peasant(UI a, UI b);
+UI		ft_peasant(UI a, UI b);
 
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
