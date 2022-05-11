@@ -8,9 +8,9 @@ HEADER_LIB	:=	$(addsuffix .h, $(addprefix includes/, libft get_next_line ft_prin
 
 FT_IS		:=	alnum alpha ascii count digit in print space spacenl where minmax
 FT_LST 		:=	add_back add_front clear delone iter last map new size
-FT_MATH		:=	abs nbrlen hexlen baselen power degrad
+FT_MATH		:=	abs nbrlen hexlen baselen power degrad peasant
 FT_MEM 		:=	bzero calloc memccpy memchr memcmp memcpy memfree memmove memset memalloc memdel intswap 
-FT_PUT 		:=	char endl nbr str char_fd endl_fd nbr_fd str_fd
+FT_PUT 		:=	char endl nbr str char_fd endl_fd nbr_fd str_fd binary
 FT_STR 		:=	chr cmp dup join lcat lcpy cpy len mapi ncmp nstr rchr trim iteri append new spn
 FT_SUB 		:=	substr split split_str save_free linebreak
 FT_TO 		:=	tolower toupper atoi itoa
@@ -32,7 +32,9 @@ SRC 		:= 	$(addsuffix .c, $(addprefix ft_is/ft_is, $(FT_IS)))					\
 				$(addsuffix .c, $(addprefix ft_gnl/, $(FT_GNL)))					\
 				$(addsuffix .c, $(addprefix ft_printf/ft_, $(FT_PRINTF)))			\
 				$(addsuffix .c, $(addprefix ft_sort/ft_sort_, $(FT_SORT)))			\
-				$(addsuffix .c, $(addprefix ft_btree/ft_btree_, $(FT_BTREE)))			\
+				$(addsuffix .c, $(addprefix ft_btree/ft_btree_, $(FT_BTREE)))		\
+
+SRC			:= $(addprefix srcs/, $(SRC))
 
 OBJ_LIB		:= 	$(SRC:.c=.o)
 

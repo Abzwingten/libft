@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'ft_btree/ft_btree_create_node.o', needed by 'libft.a'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'ft_btree/ft_btree_create_node.o', needed by 'l
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May 11 11:44:34 2022
+# Make data base, printed on Wed May 11 20:16:35 2022
 
 # Variables
 
@@ -18,16 +16,17 @@ GDK_BACKEND = x11
 LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
-# makefile (from 'Makefile', line 23)
-SRC := ft_is/ft_isalnum.c ft_is/ft_isalpha.c ft_is/ft_isascii.c ft_is/ft_iscount.c ft_is/ft_isdigit.c ft_is/ft_isin.c ft_is/ft_isprint.c ft_is/ft_isspace.c ft_is/ft_isspacenl.c ft_is/ft_iswhere.c ft_is/ft_isminmax.c ft_lst/ft_lstadd_back.c ft_lst/ft_lstadd_front.c ft_lst/ft_lstclear.c ft_lst/ft_lstdelone.c ft_lst/ft_lstiter.c ft_lst/ft_lstlast.c ft_lst/ft_lstmap.c ft_lst/ft_lstnew.c ft_lst/ft_lstsize.c ft_math/ft_abs.c ft_math/ft_nbrlen.c ft_math/ft_hexlen.c ft_math/ft_baselen.c ft_math/ft_power.c ft_math/ft_degrad.c ft_mem/ft_bzero.c ft_mem/ft_calloc.c ft_mem/ft_memccpy.c ft_mem/ft_memchr.c ft_mem/ft_memcmp.c ft_mem/ft_memcpy.c ft_mem/ft_memfree.c ft_mem/ft_memmove.c ft_mem/ft_memset.c ft_mem/ft_memalloc.c ft_mem/ft_memdel.c ft_mem/ft_intswap.c ft_put/ft_putchar.c ft_put/ft_putendl.c ft_put/ft_putnbr.c ft_put/ft_putstr.c ft_put/ft_putchar_fd.c ft_put/ft_putendl_fd.c ft_put/ft_putnbr_fd.c ft_put/ft_putstr_fd.c  ft_str/ft_strchr.c ft_str/ft_strcmp.c ft_str/ft_strdup.c ft_str/ft_strjoin.c ft_str/ft_strlcat.c ft_str/ft_strlcpy.c ft_str/ft_strcpy.c ft_str/ft_strlen.c ft_str/ft_strmapi.c ft_str/ft_strncmp.c ft_str/ft_strnstr.c ft_str/ft_strrchr.c ft_str/ft_strtrim.c ft_str/ft_striteri.c ft_str/ft_strappend.c ft_str/ft_strnew.c ft_str/ft_strspn.c ft_str/ft_substr.c ft_str/ft_split.c ft_str/ft_split_str.c ft_str/ft_save_free.c ft_str/ft_linebreak.c ft_to/ft_tolower.c ft_to/ft_toupper.c ft_to/ft_atoi.c ft_to/ft_itoa.c ft_gnl/gnl.c ft_gnl/utils_gnl.c ft_printf/ft_choose.c ft_printf/ft_convert_c.c ft_printf/ft_convert_d.c ft_printf/ft_convert_p.c ft_printf/ft_convert_pct.c ft_printf/ft_convert_s.c ft_printf/ft_convert_u.c ft_printf/ft_initializer.c ft_printf/ft_parser_args.c ft_printf/ft_parser_asterix.c ft_printf/ft_parser.c ft_printf/ft_place_bin.c ft_printf/ft_printf.c ft_printf/ft_uitoa_base.c ft_sort/ft_sort_quick.c ft_btree/ft_btree_create_node.c ft_btree/ft_btree_add_node.c ft_btree/ft_btree_apply_inflix.c ft_btree/ft_btree_apply_prefix.c ft_btree/ft_btree_apply_suffix.c ft_btree/ft_btree_level_count.c ft_btree/ft_btree_search_item.c 
+# makefile (from 'Makefile', line 37)
+SRC := srcs/ft_is/ft_isalnum.c srcs/ft_is/ft_isalpha.c srcs/ft_is/ft_isascii.c srcs/ft_is/ft_iscount.c srcs/ft_is/ft_isdigit.c srcs/ft_is/ft_isin.c srcs/ft_is/ft_isprint.c srcs/ft_is/ft_isspace.c srcs/ft_is/ft_isspacenl.c srcs/ft_is/ft_iswhere.c srcs/ft_is/ft_isminmax.c srcs/ft_lst/ft_lstadd_back.c srcs/ft_lst/ft_lstadd_front.c srcs/ft_lst/ft_lstclear.c srcs/ft_lst/ft_lstdelone.c srcs/ft_lst/ft_lstiter.c srcs/ft_lst/ft_lstlast.c srcs/ft_lst/ft_lstmap.c srcs/ft_lst/ft_lstnew.c srcs/ft_lst/ft_lstsize.c srcs/ft_math/ft_abs.c srcs/ft_math/ft_nbrlen.c srcs/ft_math/ft_hexlen.c srcs/ft_math/ft_baselen.c srcs/ft_math/ft_power.c srcs/ft_math/ft_degrad.c srcs/ft_math/ft_peasant.c srcs/ft_mem/ft_bzero.c srcs/ft_mem/ft_calloc.c srcs/ft_mem/ft_memccpy.c srcs/ft_mem/ft_memchr.c srcs/ft_mem/ft_memcmp.c srcs/ft_mem/ft_memcpy.c srcs/ft_mem/ft_memfree.c srcs/ft_mem/ft_memmove.c srcs/ft_mem/ft_memset.c srcs/ft_mem/ft_memalloc.c srcs/ft_mem/ft_memdel.c srcs/ft_mem/ft_intswap.c srcs/ft_put/ft_putchar.c srcs/ft_put/ft_putendl.c srcs/ft_put/ft_putnbr.c srcs/ft_put/ft_putstr.c srcs/ft_put/ft_putchar_fd.c srcs/ft_put/ft_putendl_fd.c srcs/ft_put/ft_putnbr_fd.c srcs/ft_put/ft_putstr_fd.c srcs/ft_put/ft_putbinary.c srcs/ft_str/ft_strchr.c srcs/ft_str/ft_strcmp.c srcs/ft_str/ft_strdup.c srcs/ft_str/ft_strjoin.c srcs/ft_str/ft_strlcat.c srcs/ft_str/ft_strlcpy.c srcs/ft_str/ft_strcpy.c srcs/ft_str/ft_strlen.c srcs/ft_str/ft_strmapi.c srcs/ft_str/ft_strncmp.c srcs/ft_str/ft_strnstr.c srcs/ft_str/ft_strrchr.c srcs/ft_str/ft_strtrim.c srcs/ft_str/ft_striteri.c srcs/ft_str/ft_strappend.c srcs/ft_str/ft_strnew.c srcs/ft_str/ft_strspn.c srcs/ft_str/ft_substr.c srcs/ft_str/ft_split.c srcs/ft_str/ft_split_str.c srcs/ft_str/ft_save_free.c srcs/ft_str/ft_linebreak.c srcs/ft_to/ft_tolower.c srcs/ft_to/ft_toupper.c srcs/ft_to/ft_atoi.c srcs/ft_to/ft_itoa.c srcs/ft_gnl/gnl.c srcs/ft_gnl/utils_gnl.c srcs/ft_printf/ft_choose.c srcs/ft_printf/ft_convert_c.c srcs/ft_printf/ft_convert_d.c srcs/ft_printf/ft_convert_p.c srcs/ft_printf/ft_convert_pct.c srcs/ft_printf/ft_convert_s.c srcs/ft_printf/ft_convert_u.c srcs/ft_printf/ft_initializer.c srcs/ft_printf/ft_parser_args.c srcs/ft_printf/ft_parser_asterix.c srcs/ft_printf/ft_parser.c srcs/ft_printf/ft_place_bin.c srcs/ft_printf/ft_printf.c srcs/ft_printf/ft_uitoa_base.c srcs/ft_sort/ft_sort_quick.c srcs/ft_btree/ft_btree_create_node.c srcs/ft_btree/ft_btree_add_node.c srcs/ft_btree/ft_btree_apply_inflix.c srcs/ft_btree/ft_btree_apply_prefix.c srcs/ft_btree/ft_btree_apply_suffix.c srcs/ft_btree/ft_btree_level_count.c srcs/ft_btree/ft_btree_search_item.c
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/matt/.gtkrc:/home/matt/.config/gtkrc
+ 
 # environment
 TINYGOPATH = /home/matt/Documents/GIT/go
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-359fd381-0384-4f82-8044-135275bce7fb.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a8b5b5b5-b6b5-434e-a7e9-42bb6b96e7ef.sock
 # environment
-KONSOLE_DBUS_SERVICE = :1.57
+KONSOLE_DBUS_SERVICE = :1.1277
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
@@ -35,7 +34,7 @@ LC_NUMERIC = ru_RU.UTF-8
 # environment
 VSCODE_CWD = /home/matt/Documents/GIT/ECOLE42/libft
 # environment
-FZF_CTRL_T_OPTS = --preview 'command bat --color=always --line-range :500 {}' --preview 'command bat --color=always --line-range :500 {}' --preview 'command bat --color=always --line-range :500 {}' --preview 'command bat --color=always --line-range :500 {}' --preview 'command bat --color=always --line-range :500 {}' 
+FZF_CTRL_T_OPTS = --preview 'command bat --color=always --line-range :500 {}' 
 # environment
 WINDOWID = 106954759
 # environment
@@ -61,7 +60,7 @@ PWD = /home/matt/Documents/GIT/ECOLE42/libft
 # environment
 MAIL = /var/spool/mail/matt
 # environment
-OLDPWD = /home/matt/Documents/GIT/ECOLE42
+OLDPWD = /home/matt/Documents/GIT
 # environment
 KONSOLE_DBUS_WINDOW = /Windows/1
 # automatic
@@ -127,7 +126,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 19585
+VSCODE_PID = 15908
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -148,7 +147,7 @@ QT_QPA_PLATFORMTHEME = gtk
 CHROME_DESKTOP = code-oss.desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-s6swAcBvsU,guid=d40317f9a64124d0785a7041627b56dd
-# makefile (from 'Makefile', line 41)
+# makefile (from 'Makefile', line 43)
 COLOR = \033[0;45m
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
@@ -165,7 +164,7 @@ LESS_TERMCAP_us = [1;32m
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 5
+SHLVL = 1
 # environment
 ANDROID_NDK = /opt/android-ndk
 # environment
@@ -179,7 +178,7 @@ TINYGOROOT = /usr/lib/tinygo
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/go/bin:/opt/android-ndk:/opt/android-sdk/platform-tools:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/bin:/home/matt/Documents/GIT/go/bin:/bin:/home/matt/Documents/GIT/go/bin:/bin:/home/matt/Documents/GIT/go/bin:/bin:/home/matt/Documents/GIT/go/bin:/bin:/home/matt/Documents/GIT/go/bin
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/go/bin:/opt/android-ndk:/opt/android-sdk/platform-tools:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/bin:/home/matt/Documents/GIT/go/bin
 # environment
 LESS_TERMCAP_se = [27m
 # default
@@ -227,7 +226,7 @@ DESKTOP_SESSION = plasma
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = KDE
 # makefile (from 'Makefile', line 11)
-FT_MATH := abs nbrlen hexlen baselen power degrad
+FT_MATH := abs nbrlen hexlen baselen power degrad peasant
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -240,7 +239,7 @@ LOGNAME = matt
 FZF_CTRL_T_COMMAND = command rg -uu -g '!.git' --files
 # environment
 XDG_VTNR = 7
-# makefile (from 'Makefile', line 42)
+# makefile (from 'Makefile', line 44)
 NC = \033[0m 
 # makefile
 .DEFAULT_GOAL := all
@@ -255,13 +254,13 @@ MAKE_VERSION := 4.3
 # environment
 KDE_SESSION_UID = 1000
 # makefile (from 'Makefile', line 13)
-FT_PUT := char endl nbr str char_fd endl_fd nbr_fd str_fd
+FT_PUT := char endl nbr str char_fd endl_fd nbr_fd str_fd binary
 # environment
 KONSOLE_DBUS_SESSION = /Sessions/1
 # makefile (from 'Makefile', line 18)
 FT_PRINTF := choose convert_c convert_d convert_p convert_pct convert_s convert_u initializer parser_args parser_asterix parser place_bin printf uitoa_base
-# makefile (from 'Makefile', line 37)
-OBJ_LIB := ft_is/ft_isalnum.o ft_is/ft_isalpha.o ft_is/ft_isascii.o ft_is/ft_iscount.o ft_is/ft_isdigit.o ft_is/ft_isin.o ft_is/ft_isprint.o ft_is/ft_isspace.o ft_is/ft_isspacenl.o ft_is/ft_iswhere.o ft_is/ft_isminmax.o ft_lst/ft_lstadd_back.o ft_lst/ft_lstadd_front.o ft_lst/ft_lstclear.o ft_lst/ft_lstdelone.o ft_lst/ft_lstiter.o ft_lst/ft_lstlast.o ft_lst/ft_lstmap.o ft_lst/ft_lstnew.o ft_lst/ft_lstsize.o ft_math/ft_abs.o ft_math/ft_nbrlen.o ft_math/ft_hexlen.o ft_math/ft_baselen.o ft_math/ft_power.o ft_math/ft_degrad.o ft_mem/ft_bzero.o ft_mem/ft_calloc.o ft_mem/ft_memccpy.o ft_mem/ft_memchr.o ft_mem/ft_memcmp.o ft_mem/ft_memcpy.o ft_mem/ft_memfree.o ft_mem/ft_memmove.o ft_mem/ft_memset.o ft_mem/ft_memalloc.o ft_mem/ft_memdel.o ft_mem/ft_intswap.o ft_put/ft_putchar.o ft_put/ft_putendl.o ft_put/ft_putnbr.o ft_put/ft_putstr.o ft_put/ft_putchar_fd.o ft_put/ft_putendl_fd.o ft_put/ft_putnbr_fd.o ft_put/ft_putstr_fd.o ft_str/ft_strchr.o ft_str/ft_strcmp.o ft_str/ft_strdup.o ft_str/ft_strjoin.o ft_str/ft_strlcat.o ft_str/ft_strlcpy.o ft_str/ft_strcpy.o ft_str/ft_strlen.o ft_str/ft_strmapi.o ft_str/ft_strncmp.o ft_str/ft_strnstr.o ft_str/ft_strrchr.o ft_str/ft_strtrim.o ft_str/ft_striteri.o ft_str/ft_strappend.o ft_str/ft_strnew.o ft_str/ft_strspn.o ft_str/ft_substr.o ft_str/ft_split.o ft_str/ft_split_str.o ft_str/ft_save_free.o ft_str/ft_linebreak.o ft_to/ft_tolower.o ft_to/ft_toupper.o ft_to/ft_atoi.o ft_to/ft_itoa.o ft_gnl/gnl.o ft_gnl/utils_gnl.o ft_printf/ft_choose.o ft_printf/ft_convert_c.o ft_printf/ft_convert_d.o ft_printf/ft_convert_p.o ft_printf/ft_convert_pct.o ft_printf/ft_convert_s.o ft_printf/ft_convert_u.o ft_printf/ft_initializer.o ft_printf/ft_parser_args.o ft_printf/ft_parser_asterix.o ft_printf/ft_parser.o ft_printf/ft_place_bin.o ft_printf/ft_printf.o ft_printf/ft_uitoa_base.o ft_sort/ft_sort_quick.o ft_btree/ft_btree_create_node.o ft_btree/ft_btree_add_node.o ft_btree/ft_btree_apply_inflix.o ft_btree/ft_btree_apply_prefix.o ft_btree/ft_btree_apply_suffix.o ft_btree/ft_btree_level_count.o ft_btree/ft_btree_search_item.o
+# makefile (from 'Makefile', line 39)
+OBJ_LIB := srcs/ft_is/ft_isalnum.o srcs/ft_is/ft_isalpha.o srcs/ft_is/ft_isascii.o srcs/ft_is/ft_iscount.o srcs/ft_is/ft_isdigit.o srcs/ft_is/ft_isin.o srcs/ft_is/ft_isprint.o srcs/ft_is/ft_isspace.o srcs/ft_is/ft_isspacenl.o srcs/ft_is/ft_iswhere.o srcs/ft_is/ft_isminmax.o srcs/ft_lst/ft_lstadd_back.o srcs/ft_lst/ft_lstadd_front.o srcs/ft_lst/ft_lstclear.o srcs/ft_lst/ft_lstdelone.o srcs/ft_lst/ft_lstiter.o srcs/ft_lst/ft_lstlast.o srcs/ft_lst/ft_lstmap.o srcs/ft_lst/ft_lstnew.o srcs/ft_lst/ft_lstsize.o srcs/ft_math/ft_abs.o srcs/ft_math/ft_nbrlen.o srcs/ft_math/ft_hexlen.o srcs/ft_math/ft_baselen.o srcs/ft_math/ft_power.o srcs/ft_math/ft_degrad.o srcs/ft_math/ft_peasant.o srcs/ft_mem/ft_bzero.o srcs/ft_mem/ft_calloc.o srcs/ft_mem/ft_memccpy.o srcs/ft_mem/ft_memchr.o srcs/ft_mem/ft_memcmp.o srcs/ft_mem/ft_memcpy.o srcs/ft_mem/ft_memfree.o srcs/ft_mem/ft_memmove.o srcs/ft_mem/ft_memset.o srcs/ft_mem/ft_memalloc.o srcs/ft_mem/ft_memdel.o srcs/ft_mem/ft_intswap.o srcs/ft_put/ft_putchar.o srcs/ft_put/ft_putendl.o srcs/ft_put/ft_putnbr.o srcs/ft_put/ft_putstr.o srcs/ft_put/ft_putchar_fd.o srcs/ft_put/ft_putendl_fd.o srcs/ft_put/ft_putnbr_fd.o srcs/ft_put/ft_putstr_fd.o srcs/ft_put/ft_putbinary.o srcs/ft_str/ft_strchr.o srcs/ft_str/ft_strcmp.o srcs/ft_str/ft_strdup.o srcs/ft_str/ft_strjoin.o srcs/ft_str/ft_strlcat.o srcs/ft_str/ft_strlcpy.o srcs/ft_str/ft_strcpy.o srcs/ft_str/ft_strlen.o srcs/ft_str/ft_strmapi.o srcs/ft_str/ft_strncmp.o srcs/ft_str/ft_strnstr.o srcs/ft_str/ft_strrchr.o srcs/ft_str/ft_strtrim.o srcs/ft_str/ft_striteri.o srcs/ft_str/ft_strappend.o srcs/ft_str/ft_strnew.o srcs/ft_str/ft_strspn.o srcs/ft_str/ft_substr.o srcs/ft_str/ft_split.o srcs/ft_str/ft_split_str.o srcs/ft_str/ft_save_free.o srcs/ft_str/ft_linebreak.o srcs/ft_to/ft_tolower.o srcs/ft_to/ft_toupper.o srcs/ft_to/ft_atoi.o srcs/ft_to/ft_itoa.o srcs/ft_gnl/gnl.o srcs/ft_gnl/utils_gnl.o srcs/ft_printf/ft_choose.o srcs/ft_printf/ft_convert_c.o srcs/ft_printf/ft_convert_d.o srcs/ft_printf/ft_convert_p.o srcs/ft_printf/ft_convert_pct.o srcs/ft_printf/ft_convert_s.o srcs/ft_printf/ft_convert_u.o srcs/ft_printf/ft_initializer.o srcs/ft_printf/ft_parser_args.o srcs/ft_printf/ft_parser_asterix.o srcs/ft_printf/ft_parser.o srcs/ft_printf/ft_place_bin.o srcs/ft_printf/ft_printf.o srcs/ft_printf/ft_uitoa_base.o srcs/ft_sort/ft_sort_quick.o srcs/ft_btree/ft_btree_create_node.o srcs/ft_btree/ft_btree_add_node.o srcs/ft_btree/ft_btree_apply_inflix.o srcs/ft_btree/ft_btree_apply_prefix.o srcs/ft_btree/ft_btree_apply_suffix.o srcs/ft_btree/ft_btree_level_count.o srcs/ft_btree/ft_btree_search_item.o
 # environment
 LC_MEASUREMENT = ru_RU.UTF-8
 # environment
@@ -296,7 +295,6 @@ HOME = /home/matt
 FT_SUB := substr split split_str save_free linebreak
 # makefile (from 'Makefile', line 21)
 FT_BTREE := create_node add_node apply_inflix apply_prefix apply_suffix level_count search_item
- 
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
@@ -322,12 +320,13 @@ VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
-SHELL_SESSION_ID = c8b20366b0c34afc8aaae29ebbf4cdfd
+SHELL_SESSION_ID = 006ac214f9d2463c92df5592d8316e6a
 # environment
 KDE_SESSION_VERSION = 5
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # makefile (from 'Makefile', line 5)
+ 
 CC := gcc -Wall -Wextra -Werror -Iincludes/ -O2
 # environment
 KDE_FULL_SESSION = true
@@ -338,7 +337,7 @@ LC_IDENTIFICATION = ru_RU.UTF-8
 # makefile (from 'Makefile', line 4)
 CC_FLAGS := -Wall -Wextra -Werror -Iincludes/ -O2
 # variable set hash-table stats:
-# Load=162/1024=16%, Rehash=0, Collisions=29/211=14%
+# Load=162/1024=16%, Rehash=0, Collisions=33/218=15%
 
 # Pattern-specific Variable Values
 
@@ -346,439 +345,256 @@ CC_FLAGS := -Wall -Wextra -Werror -Iincludes/ -O2
 
 # Directories
 
-# ft_gnl (device 2081, inode 155889): 6 files, no impossibilities so far.
-# ft_btree (device 0, inode 0): No files, 1 impossibilities.
-# ft_str (device 2081, inode 155972): 46 files, no impossibilities so far.
-# ft_put (device 2081, inode 155961): 17 files, no impossibilities so far.
-# ft_sort (device 2081, inode 155970): 4 files, no impossibilities.
-# . (device 2081, inode 155845): 18 files, no impossibilities.
-# ft_math (device 2081, inode 155922): 15 files, no impossibilities so far.
+# . (device 2081, inode 155845): 8 files, no impossibilities.
 # includes (device 2081, inode 156001): 6 files, no impossibilities so far.
-# ft_mem (device 2081, inode 155932): 25 files, no impossibilities so far.
-# ft_is (device 2081, inode 155900): 23 files, no impossibilities so far.
-# ft_printf (device 2081, inode 155946): 30 files, no impossibilities.
-# ft_lst (device 2081, inode 155912): 19 files, no impossibilities so far.
-# ft_to (device 2081, inode 155996): 9 files, no impossibilities so far.
+# srcs/ft_is (device 2081, inode 155900): 3 files, no impossibilities so far.
 
-# 218 files, 1 impossibilities in 13 directories.
+# 17 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
 %.o: %.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  recipe to execute (from 'Makefile', line 53):
+#  recipe to execute (from 'Makefile', line 55):
 	@${CC} ${CС_FLAGS} -c $< -o $@
 
 # 1 implicit rules, 0 (0.0%) terminal.
 # Files
 
 # Not a target:
-ft_str/ft_strspn.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2331582
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_sort/ft_sort_quick.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2306164
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_lst/ft_lstsize.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2252151
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strcpy.o: ft_str/ft_strcpy.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strcpy'
-#  Last modified 2022-05-11 11:43:23.8488732
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_put/ft_putnbr_fd.o: ft_put/ft_putnbr_fd.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putnbr_fd'
-#  Last modified 2022-05-11 11:43:23.6927137
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_btree/ft_btree_search_item.o:
+srcs/ft_lst/ft_lstsize.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-libft.a: ft_is/ft_isalnum.o ft_is/ft_isalpha.o ft_is/ft_isascii.o ft_is/ft_iscount.o ft_is/ft_isdigit.o ft_is/ft_isin.o ft_is/ft_isprint.o ft_is/ft_isspace.o ft_is/ft_isspacenl.o ft_is/ft_iswhere.o ft_is/ft_isminmax.o ft_lst/ft_lstadd_back.o ft_lst/ft_lstadd_front.o ft_lst/ft_lstclear.o ft_lst/ft_lstdelone.o ft_lst/ft_lstiter.o ft_lst/ft_lstlast.o ft_lst/ft_lstmap.o ft_lst/ft_lstnew.o ft_lst/ft_lstsize.o ft_math/ft_abs.o ft_math/ft_nbrlen.o ft_math/ft_hexlen.o ft_math/ft_baselen.o ft_math/ft_power.o ft_math/ft_degrad.o ft_mem/ft_bzero.o ft_mem/ft_calloc.o ft_mem/ft_memccpy.o ft_mem/ft_memchr.o ft_mem/ft_memcmp.o ft_mem/ft_memcpy.o ft_mem/ft_memfree.o ft_mem/ft_memmove.o ft_mem/ft_memset.o ft_mem/ft_memalloc.o ft_mem/ft_memdel.o ft_mem/ft_intswap.o ft_put/ft_putchar.o ft_put/ft_putendl.o ft_put/ft_putnbr.o ft_put/ft_putstr.o ft_put/ft_putchar_fd.o ft_put/ft_putendl_fd.o ft_put/ft_putnbr_fd.o ft_put/ft_putstr_fd.o ft_str/ft_strchr.o ft_str/ft_strcmp.o ft_str/ft_strdup.o ft_str/ft_strjoin.o ft_str/ft_strlcat.o ft_str/ft_strlcpy.o ft_str/ft_strcpy.o ft_str/ft_strlen.o ft_str/ft_strmapi.o ft_str/ft_strncmp.o ft_str/ft_strnstr.o ft_str/ft_strrchr.o ft_str/ft_strtrim.o ft_str/ft_striteri.o ft_str/ft_strappend.o ft_str/ft_strnew.o ft_str/ft_strspn.o ft_str/ft_substr.o ft_str/ft_split.o ft_str/ft_split_str.o ft_str/ft_save_free.o ft_str/ft_linebreak.o ft_to/ft_tolower.o ft_to/ft_toupper.o ft_to/ft_atoi.o ft_to/ft_itoa.o ft_gnl/gnl.o ft_gnl/utils_gnl.o ft_printf/ft_choose.o ft_printf/ft_convert_c.o ft_printf/ft_convert_d.o ft_printf/ft_convert_p.o ft_printf/ft_convert_pct.o ft_printf/ft_convert_s.o ft_printf/ft_convert_u.o ft_printf/ft_initializer.o ft_printf/ft_parser_args.o ft_printf/ft_parser_asterix.o ft_printf/ft_parser.o ft_printf/ft_place_bin.o ft_printf/ft_printf.o ft_printf/ft_uitoa_base.o ft_sort/ft_sort_quick.o ft_btree/ft_btree_create_node.o ft_btree/ft_btree_add_node.o ft_btree/ft_btree_apply_inflix.o ft_btree/ft_btree_apply_prefix.o ft_btree/ft_btree_apply_suffix.o ft_btree/ft_btree_level_count.o ft_btree/ft_btree_search_item.o
+# Not a target:
+srcs/ft_put/ft_putbinary.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_strappend.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_put/ft_putnbr_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_parser_args.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libft.a: srcs/ft_is/ft_isalnum.o srcs/ft_is/ft_isalpha.o srcs/ft_is/ft_isascii.o srcs/ft_is/ft_iscount.o srcs/ft_is/ft_isdigit.o srcs/ft_is/ft_isin.o srcs/ft_is/ft_isprint.o srcs/ft_is/ft_isspace.o srcs/ft_is/ft_isspacenl.o srcs/ft_is/ft_iswhere.o srcs/ft_is/ft_isminmax.o srcs/ft_lst/ft_lstadd_back.o srcs/ft_lst/ft_lstadd_front.o srcs/ft_lst/ft_lstclear.o srcs/ft_lst/ft_lstdelone.o srcs/ft_lst/ft_lstiter.o srcs/ft_lst/ft_lstlast.o srcs/ft_lst/ft_lstmap.o srcs/ft_lst/ft_lstnew.o srcs/ft_lst/ft_lstsize.o srcs/ft_math/ft_abs.o srcs/ft_math/ft_nbrlen.o srcs/ft_math/ft_hexlen.o srcs/ft_math/ft_baselen.o srcs/ft_math/ft_power.o srcs/ft_math/ft_degrad.o srcs/ft_math/ft_peasant.o srcs/ft_mem/ft_bzero.o srcs/ft_mem/ft_calloc.o srcs/ft_mem/ft_memccpy.o srcs/ft_mem/ft_memchr.o srcs/ft_mem/ft_memcmp.o srcs/ft_mem/ft_memcpy.o srcs/ft_mem/ft_memfree.o srcs/ft_mem/ft_memmove.o srcs/ft_mem/ft_memset.o srcs/ft_mem/ft_memalloc.o srcs/ft_mem/ft_memdel.o srcs/ft_mem/ft_intswap.o srcs/ft_put/ft_putchar.o srcs/ft_put/ft_putendl.o srcs/ft_put/ft_putnbr.o srcs/ft_put/ft_putstr.o srcs/ft_put/ft_putchar_fd.o srcs/ft_put/ft_putendl_fd.o srcs/ft_put/ft_putnbr_fd.o srcs/ft_put/ft_putstr_fd.o srcs/ft_put/ft_putbinary.o srcs/ft_str/ft_strchr.o srcs/ft_str/ft_strcmp.o srcs/ft_str/ft_strdup.o srcs/ft_str/ft_strjoin.o srcs/ft_str/ft_strlcat.o srcs/ft_str/ft_strlcpy.o srcs/ft_str/ft_strcpy.o srcs/ft_str/ft_strlen.o srcs/ft_str/ft_strmapi.o srcs/ft_str/ft_strncmp.o srcs/ft_str/ft_strnstr.o srcs/ft_str/ft_strrchr.o srcs/ft_str/ft_strtrim.o srcs/ft_str/ft_striteri.o srcs/ft_str/ft_strappend.o srcs/ft_str/ft_strnew.o srcs/ft_str/ft_strspn.o srcs/ft_str/ft_substr.o srcs/ft_str/ft_split.o srcs/ft_str/ft_split_str.o srcs/ft_str/ft_save_free.o srcs/ft_str/ft_linebreak.o srcs/ft_to/ft_tolower.o srcs/ft_to/ft_toupper.o srcs/ft_to/ft_atoi.o srcs/ft_to/ft_itoa.o srcs/ft_gnl/gnl.o srcs/ft_gnl/utils_gnl.o srcs/ft_printf/ft_choose.o srcs/ft_printf/ft_convert_c.o srcs/ft_printf/ft_convert_d.o srcs/ft_printf/ft_convert_p.o srcs/ft_printf/ft_convert_pct.o srcs/ft_printf/ft_convert_s.o srcs/ft_printf/ft_convert_u.o srcs/ft_printf/ft_initializer.o srcs/ft_printf/ft_parser_args.o srcs/ft_printf/ft_parser_asterix.o srcs/ft_printf/ft_parser.o srcs/ft_printf/ft_place_bin.o srcs/ft_printf/ft_printf.o srcs/ft_printf/ft_uitoa_base.o srcs/ft_sort/ft_sort_quick.o srcs/ft_btree/ft_btree_create_node.o srcs/ft_btree/ft_btree_add_node.o srcs/ft_btree/ft_btree_apply_inflix.o srcs/ft_btree/ft_btree_apply_prefix.o srcs/ft_btree/ft_btree_apply_suffix.o srcs/ft_btree/ft_btree_level_count.o srcs/ft_btree/ft_btree_search_item.o
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 49):
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 51):
 	@$(AR) rcs $(NAME) $?
 	@echo -e "${COLOR}MEGA LIBFT DONE${NC}"
 
-ft_mem/ft_bzero.o: ft_mem/ft_bzero.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_bzero'
-#  Last modified 2022-05-11 11:43:23.3441435
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_strcmp.o: ft_str/ft_strcmp.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strcmp'
-#  Last modified 2022-05-11 11:43:23.7492406
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
 # Not a target:
-ft_mem/ft_memcmp.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.226973
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_to/ft_toupper.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.233976
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strrchr.o: ft_str/ft_strrchr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strrchr'
-#  Last modified 2022-05-11 11:43:23.9478596
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_btree/ft_btree_apply_prefix.o:
+srcs/ft_mem/ft_memcmp.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-ft_str/ft_strncmp.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2327021
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_linebreak.o: ft_str/ft_linebreak.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_linebreak'
-#  Last modified 2022-05-11 11:43:24.1947615
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_save_free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_is/ft_iswhere.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2241591
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_str/ft_strrchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_to/ft_itoa.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2337251
-#  File has been updated.
-#  Successfully updated.
-
-ft_put/ft_putstr_fd.o: ft_put/ft_putstr_fd.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putstr_fd'
-#  Last modified 2022-05-11 11:43:23.7105481
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_is/ft_isdigit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_is/ft_iscount.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2231795
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_is/ft_iswhere.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strrchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2330396
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strtrim.o: ft_str/ft_strtrim.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strtrim'
-#  Last modified 2022-05-11 11:43:23.9754161
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strnstr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_convert_s.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2284685
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_math/ft_power.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_place_bin.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2292079
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_str/ft_strchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_math/ft_degrad.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2255767
-#  File has been updated.
-#  Successfully updated.
-
-ft_lst/ft_lstmap.o: ft_lst/ft_lstmap.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstmap'
-#  Last modified 2022-05-11 11:43:23.1486667
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_put/ft_putstr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2303305
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memdel.o: ft_mem/ft_memdel.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memdel'
-#  Last modified 2022-05-11 11:43:23.5365744
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_substr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_to/ft_tolower.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2338308
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_parser_asterix.o: ft_printf/ft_parser_asterix.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_parser_asterix'
-#  Last modified 2022-05-11 11:43:24.6627378
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_lst/ft_lstiter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_convert_pct.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2283059
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_str/ft_strspn.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-ft_is/ft_isminmax.o: ft_is/ft_isminmax.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isminmax'
- 
-#  Last modified 2022-05-11 11:43:22.9762159
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+# Not a target:
+srcs/ft_printf/ft_parser_asterix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_mem/ft_memfree.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_math/ft_hexlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_is/ft_isminmax.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_mem/ft_memset.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_lst/ft_lstadd_back.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_initializer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_lst/ft_lstmap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_gnl/gnl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-11 11:43:16.3857786
+#  Last modified 2022-05-11 20:16:32.4833826
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-ft_lst/ft_lstmap.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2249872
-#  File has been updated.
-#  Successfully updated.
-
-ft_math/ft_power.o: ft_math/ft_power.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_power'
-#  Last modified 2022-05-11 11:43:23.3067531
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_put/ft_putchar.o: ft_put/ft_putchar.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putchar'
-#  Last modified 2022-05-11 11:43:23.5641883
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_split_str.o: ft_str/ft_split_str.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_split_str'
-#  Last modified 2022-05-11 11:43:24.1582891
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_printf/ft_convert_d.o: ft_printf/ft_convert_d.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_d'
-#  Last modified 2022-05-11 11:43:24.458275
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_is/ft_isspacenl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_to/ft_atoi.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2335991
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_btree/ft_btree_add_node.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_is/ft_isalnum.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2062988
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_isspacenl.o: ft_is/ft_isspacenl.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isspacenl'
-#  Last modified 2022-05-11 11:43:22.9426628
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_printf/ft_parser.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_math/ft_abs.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2253636
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_choose.o: ft_printf/ft_choose.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_choose'
-#  Last modified 2022-05-11 11:43:24.4000382
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_is/ft_isascii.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_put/ft_putstr_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2304366
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_printf/ft_place_bin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_lst/ft_lstadd_front.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2244563
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_isspace.o: ft_is/ft_isspace.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isspace'
-#  Last modified 2022-05-11 11:43:22.9206286
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_mem/ft_memchr.o: ft_mem/ft_memchr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memchr'
-#  Last modified 2022-05-11 11:43:23.4030408
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strdup.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_math/ft_power.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2260925
-#  File has been updated.
-#  Successfully updated.
-
-ft_to/ft_tolower.o: ft_to/ft_tolower.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_to/ft_tolower'
-#  Last modified 2022-05-11 11:43:24.2112588
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_mem/ft_calloc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_linebreak.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2309367
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_mem/ft_memchr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_math/ft_nbrlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 56):
+#  recipe to execute (from 'Makefile', line 58):
 	@$(RM) -rf $(OBJ_LIB)
-
-ft_printf/ft_place_bin.o: ft_printf/ft_place_bin.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_place_bin'
-#  Last modified 2022-05-11 11:43:24.708819
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_mem/ft_memfree.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2272541
-#  File has been updated.
-#  Successfully updated.
 
 # Not a target:
 includes/get_next_line.h:
@@ -787,30 +603,11 @@ includes/get_next_line.h:
 #  File has been updated.
 #  Successfully updated.
 
-ft_is/ft_isin.o: ft_is/ft_isin.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isin'
-#  Last modified 2022-05-11 11:43:22.8828103
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_split.o: ft_str/ft_split.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_split'
-#  Last modified 2022-05-11 11:43:24.1249279
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
 # Not a target:
-ft_str/ft_substr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2334147
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_str/ft_strlcat.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 includes/ft_printf.h:
@@ -819,156 +616,42 @@ includes/ft_printf.h:
 #  File has been updated.
 #  Successfully updated.
 
-ft_printf/ft_initializer.o: ft_printf/ft_initializer.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_initializer'
-#  Last modified 2022-05-11 11:43:24.6007572
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_mem/ft_memcmp.o: ft_mem/ft_memcmp.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memcmp'
-#  Last modified 2022-05-11 11:43:23.4214806
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+# Not a target:
+srcs/ft_sort/ft_sort_quick.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_mem/ft_memset.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2274867
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_intswap.o: ft_mem/ft_intswap.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_intswap'
-#  Last modified 2022-05-11 11:43:23.5465702
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_mem/ft_memcpy.o: ft_mem/ft_memcpy.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memcpy'
-#  Last modified 2022-05-11 11:43:23.4397693
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strnew.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strappend.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2314127
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_mem/ft_memccpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_convert_u.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2285895
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_str/ft_split.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-ft_str/ft_strlen.o: ft_str/ft_strlen.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strlen'
-#  Last modified 2022-05-11 11:43:23.8675254
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_strmapi.o: ft_str/ft_strmapi.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strmapi'
-#  Last modified 2022-05-11 11:43:23.8870835
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
+# Not a target:
  
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_printf/ft_printf.o: ft_printf/ft_printf.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_printf'
-#  Last modified 2022-05-11 11:43:24.7435823
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_printf/ft_choose.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_is/ft_isspacenl.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2240576
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strchr.o: ft_str/ft_strchr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strchr'
-#  Last modified 2022-05-11 11:43:23.7300104
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_lst/ft_lstlast.o: ft_lst/ft_lstlast.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstlast'
-#  Last modified 2022-05-11 11:43:23.1091971
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_printf/ft_convert_d.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2280409
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_uitoa_base.o: ft_printf/ft_uitoa_base.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_uitoa_base'
-#  Last modified 2022-05-11 11:43:24.7785176
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_mem/ft_calloc.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.226437
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_convert_s.o: ft_printf/ft_convert_s.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_s'
-#  Last modified 2022-05-11 11:43:24.5485367
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_gnl/gnl.o: ft_gnl/gnl.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_gnl/gnl'
-#  Last modified 2022-05-11 11:43:24.3306826
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_is/ft_isalpha.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 re: fclean all
 #  Phony target (prerequisite of .PHONY).
@@ -976,197 +659,132 @@ re: fclean all
 #  File does not exist.
 #  File has not been updated.
 
-ft_str/ft_strlcpy.o: ft_str/ft_strlcpy.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strlcpy'
-#  Last modified 2022-05-11 11:43:23.8311152
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_strdup.o: ft_str/ft_strdup.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strdup'
-#  Last modified 2022-05-11 11:43:23.7673138
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
 # Not a target:
-ft_mem/ft_memmove.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2273768
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_printf/ft_initializer.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2287158
-#  File has been updated.
-#  Successfully updated.
-
-ft_to/ft_itoa.o: ft_to/ft_itoa.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_to/ft_itoa'
-#  Last modified 2022-05-11 11:43:24.2984574
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_printf/ft_parser.o: ft_printf/ft_parser.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_parser'
-#  Last modified 2022-05-11 11:43:24.6874044
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_lst/ft_lstadd_back.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2243471
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memmove.o: ft_mem/ft_memmove.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memmove'
-#  Last modified 2022-05-11 11:43:23.4765124
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_mem/ft_bzero.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2263395
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_calloc.o: ft_mem/ft_calloc.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_calloc'
-#  Last modified 2022-05-11 11:43:23.364157
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_is/ft_isin.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2236217
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_mem/ft_memchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2268758
-#  File has been updated.
-#  Successfully updated.
-
-ft_lst/ft_lstdelone.o: ft_lst/ft_lstdelone.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstdelone'
-#  Last modified 2022-05-11 11:43:23.0461022
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_is/ft_isminmax.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2237298
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_convert_c.o: ft_printf/ft_convert_c.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_c'
-#  Last modified 2022-05-11 11:43:24.4214586
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_save_free.o: ft_str/ft_save_free.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_save_free'
-#  Last modified 2022-05-11 11:43:24.176316
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_sort/ft_sort_quick.o: ft_sort/ft_sort_quick.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_sort/ft_sort_quick'
-#  Last modified 2022-05-11 11:43:24.8022151
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_btree/ft_btree_create_node.o:
-#  Implicit rule search has been done.
-#  File does not exist.
+srcs/ft_btree/ft_btree_apply_suffix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-ft_str/ft_split.c:
+srcs/ft_str/ft_linebreak.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_mem/ft_bzero.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_btree/ft_btree_apply_prefix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_strlcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_uitoa_base.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_strmapi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_math/ft_abs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_math/ft_baselen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_put/ft_putstr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_lst/ft_lstadd_front.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_lst/ft_lstdelone.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_to/ft_itoa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_math/ft_degrad.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_striteri.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_strcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_mem/ft_memalloc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_str/ft_strtrim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_is/ft_isalnum.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2311588
+#  Last modified 2022-05-11 20:00:06.5254456
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-ft_lst/ft_lstiter.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2247892
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memalloc.o: ft_mem/ft_memalloc.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memalloc'
-#  Last modified 2022-05-11 11:43:23.5190454
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_printf/ft_convert_u.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strnstr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2329255
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_convert_p.o: ft_printf/ft_convert_p.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_p'
-#  Last modified 2022-05-11 11:43:24.4918644
- 
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_printf/ft_parser_args.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2289453
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_is/ft_iscount.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -1175,632 +793,212 @@ ft_printf/ft_parser_args.c:
 #  File has not been updated.
 
 # Not a target:
-ft_is/ft_isspace.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2239432
-#  File has been updated.
-#  Successfully updated.
-
-ft_gnl/utils_gnl.o: ft_gnl/utils_gnl.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_gnl/utils_gnl'
-#  Last modified 2022-05-11 11:43:24.3665784
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_math/ft_peasant.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_lst/ft_lstlast.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2248854
-#  File has been updated.
-#  Successfully updated.
-
-ft_lst/ft_lstiter.o: ft_lst/ft_lstiter.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstiter'
-#  Last modified 2022-05-11 11:43:23.0840432
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strncmp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 all: libft.a
 #  Phony target (prerequisite of .PHONY).
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
-
-ft_is/ft_isascii.o: ft_is/ft_isascii.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isascii'
-#  Last modified 2022-05-11 11:43:22.8352096
 #  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+srcs/ft_put/ft_putendl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 fclean: clean
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 59):
+#  recipe to execute (from 'Makefile', line 61):
 	@$(RM) -f $(NAME)
 
 # Not a target:
-ft_printf/ft_choose.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2277773
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_math/ft_nbrlen.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.225976
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_printf/ft_printf.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2293317
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_isdigit.o: ft_is/ft_isdigit.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isdigit'
-#  Last modified 2022-05-11 11:43:22.8639568
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_str/ft_strlcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2323554
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_is/ft_isalpha.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2063796
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_is/ft_isascii.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2064746
-#  File has been updated.
-#  Successfully updated.
-
-ft_printf/ft_parser_args.o: ft_printf/ft_parser_args.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_parser_args'
-#  Last modified 2022-05-11 11:43:24.6417379
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_lst/ft_lstadd_front.o: ft_lst/ft_lstadd_front.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstadd_front'
-#  Last modified 2022-05-11 11:43:23.0107979
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_printf/ft_convert_pct.o: ft_printf/ft_convert_pct.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_pct'
-#  Last modified 2022-05-11 11:43:24.515238
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_str/ft_striteri.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2319673
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_mem/ft_memcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2270733
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_put/ft_putnbr_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2301819
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memccpy.o: ft_mem/ft_memccpy.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memccpy'
-#  Last modified 2022-05-11 11:43:23.3842437
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_str/ft_strnew.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2328043
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_btree/ft_btree_add_node.o:
+srcs/ft_gnl/utils_gnl.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-ft_is/ft_isprint.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2238327
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_iswhere.o: ft_is/ft_iswhere.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_iswhere'
-#  Last modified 2022-05-11 11:43:22.9653639
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_is/ft_isalnum.o: ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isalnum'
-#  Last modified 2022-05-11 11:43:22.7912613
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_to/ft_atoi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_convert_p.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2281432
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_mem/ft_memmove.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-ft_put/ft_putendl.o: ft_put/ft_putendl.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
- 
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putendl'
-#  Last modified 2022-05-11 11:43:23.5810846
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+# Not a target:
+srcs/ft_mem/ft_intswap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_btree/ft_btree_search_item.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_convert_d.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_convert_c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_put/ft_putchar.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_printf/ft_printf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 includes/libft.h:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-11 11:18:16.0060323
-#  File has been updated.
-#  Successfully updated.
-
-ft_put/ft_putnbr.o: ft_put/ft_putnbr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putnbr'
-#  Last modified 2022-05-11 11:43:23.6091579
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_math/ft_baselen.o: ft_math/ft_baselen.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_baselen'
-#  Last modified 2022-05-11 11:43:23.2927267
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_math/ft_abs.o: ft_math/ft_abs.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_abs'
-#  Last modified 2022-05-11 11:43:23.2244199
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_mem/ft_memalloc.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2266589
+#  Last modified 2022-05-11 19:56:16.5148376
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-ft_btree/ft_btree_level_count.o:
+srcs/ft_str/ft_strjoin.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-ft_math/ft_nbrlen.o: ft_math/ft_nbrlen.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_nbrlen'
-#  Last modified 2022-05-11 11:43:23.2508264
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+# Not a target:
+srcs/ft_to/ft_toupper.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strlcat.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.232239
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_mem/ft_memdel.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strcpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2317517
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_iscount.o: ft_is/ft_iscount.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_iscount'
-#  Last modified 2022-05-11 11:43:22.8473457
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_put/ft_putchar_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_parser_asterix.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2290832
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memset.o: ft_mem/ft_memset.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memset'
-#  Last modified 2022-05-11 11:43:23.4946602
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_is/ft_isspace.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_printf/ft_parser.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2288316
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_str/ft_strmapi.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2325897
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_put/ft_putnbr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2300701
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_printf/ft_uitoa_base.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2294409
-#  File has been updated.
-#  Successfully updated.
-
-ft_put/ft_putendl_fd.o: ft_put/ft_putendl_fd.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putendl_fd'
-#  Last modified 2022-05-11 11:43:23.6613292
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_is/ft_isdigit.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2235104
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_isprint.o: ft_is/ft_isprint.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isprint'
-#  Last modified 2022-05-11 11:43:22.9007319
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_lst/ft_lstnew.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2251194
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strappend.o: ft_str/ft_strappend.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strappend'
-#  Last modified 2022-05-11 11:43:24.0202291
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_to/ft_toupper.o: ft_to/ft_toupper.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_to/ft_toupper'
-#  Last modified 2022-05-11 11:43:24.2281632
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_str/ft_save_free.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2310398
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_printf/ft_convert_c.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2279348
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_str/ft_strjoin.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2321178
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strnstr.o: ft_str/ft_strnstr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strnstr'
  
-#  Last modified 2022-05-11 11:43:23.928165
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_str/ft_strcmp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strchr.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2315263
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_lst/ft_lstclear.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_mem/ft_memcpy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_btree/ft_btree_apply_inflix.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_is/ft_isprint.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_to/ft_tolower.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 norm:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 64):
+#  recipe to execute (from 'Makefile', line 66):
 	@norminette $(SRC) $(HEADER)
 
 # Not a target:
-ft_lst/ft_lstclear.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2245824
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_mem/ft_intswap.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2265358
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strspn.o: ft_str/ft_strspn.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strspn'
-#  Last modified 2022-05-11 11:43:24.0559664
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_striteri.o: ft_str/ft_striteri.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_striteri'
-#  Last modified 2022-05-11 11:43:23.9955283
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_put/ft_putendl.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2298401
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_str/ft_split_str.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2313083
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_mem/ft_memccpy.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2267784
-#  File has been updated.
-#  Successfully updated.
-
-ft_put/ft_putchar_fd.o: ft_put/ft_putchar_fd.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putchar_fd'
-#  Last modified 2022-05-11 11:43:23.6441589
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_strjoin.o: ft_str/ft_strjoin.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strjoin'
-#  Last modified 2022-05-11 11:43:23.7890027
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_put/ft_putendl_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2299466
-#  File has been updated.
-#  Successfully updated.
-
-ft_lst/ft_lstadd_back.o: ft_lst/ft_lstadd_back.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstadd_back'
-#  Last modified 2022-05-11 11:43:22.9941263
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_str/ft_strlen.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2324672
-#  File has been updated.
-#  Successfully updated.
-
-ft_math/ft_degrad.o: ft_math/ft_degrad.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_degrad'
-#  Last modified 2022-05-11 11:43:23.3257542
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_lst/ft_lstclear.o: ft_lst/ft_lstclear.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstclear'
-#  Last modified 2022-05-11 11:43:23.0283769
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_math/ft_hexlen.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2257799
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_btree/ft_btree_apply_inflix.o:
+srcs/ft_put/ft_putendl_fd.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-ft_str/ft_strtrim.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2332817
-#  File has been updated.
-#  Successfully updated.
-
-ft_mem/ft_memfree.o: ft_mem/ft_memfree.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_mem/ft_memfree'
-#  Last modified 2022-05-11 11:43:23.4567646
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_lst/ft_lstnew.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_str/ft_strdup.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2318578
-#  File has been updated.
-#  Successfully updated.
-
-ft_is/ft_isalpha.o: ft_is/ft_isalpha.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_is/ft_isalpha'
-#  Last modified 2022-05-11 11:43:22.8143018
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_to/ft_atoi.o: ft_to/ft_atoi.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_to/ft_atoi'
-#  Last modified 2022-05-11 11:43:24.263456
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_lst/ft_lstnew.o: ft_lst/ft_lstnew.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstnew'
-#  Last modified 2022-05-11 11:43:23.1739116
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+srcs/ft_printf/ft_convert_pct.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
- 
-ft_gnl/gnl.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2060877
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_lst/ft_lstlast.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-ft_lst/ft_lstdelone.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2246803
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_btree/ft_btree_create_node.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_put/ft_putstr_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 .PHONY: all clean fclean re norm
 #  Implicit rule search has not been done.
@@ -1808,141 +1006,82 @@ ft_lst/ft_lstdelone.c:
 #  File has not been updated.
 
 # Not a target:
-ft_put/ft_putchar_fd.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2297343
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strlcat.o: ft_str/ft_strlcat.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strlcat'
-#  Last modified 2022-05-11 11:43:23.8095361
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_substr.o: ft_str/ft_substr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_substr'
-#  Last modified 2022-05-11 11:43:24.0903493
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_lst/ft_lstsize.o: ft_lst/ft_lstsize.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_lst/ft_lstsize'
-#  Last modified 2022-05-11 11:43:23.1992977
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_btree/ft_btree_apply_suffix.o:
+srcs/ft_printf/ft_convert_s.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-ft_str/ft_strcmp.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2316402
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_put/ft_putnbr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-ft_printf/ft_convert_u.o: ft_printf/ft_convert_u.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_printf/ft_convert_u'
-#  Last modified 2022-05-11 11:43:24.5810436
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
+# Not a target:
+srcs/ft_printf/ft_convert_p.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-ft_math/ft_hexlen.o: ft_math/ft_hexlen.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# Not a target:
+srcs/ft_str/ft_split_str.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/ft_is/ft_isin.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srcs/ft_is/ft_isalnum.o: srcs/ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
 #  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_math/ft_hexlen'
-#  Last modified 2022-05-11 11:43:23.2770406
+#  Implicit/static pattern stem: 'srcs/ft_is/ft_isalnum'
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
+#  Needs to be updated (-q is set).
+# automatic
+# @ := srcs/ft_is/ft_isalnum.o
+# automatic
+# * := srcs/ft_is/ft_isalnum
+# automatic
+# < := srcs/ft_is/ft_isalnum.c
+# automatic
+# + := srcs/ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# % := 
+# automatic
+# ^ := srcs/ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# ? := srcs/ft_is/ft_isalnum.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 55):
 	@${CC} ${CС_FLAGS} -c $< -o $@
 
 # Not a target:
-ft_mem/ft_memdel.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2271601
-#  File has been updated.
-#  Successfully updated.
-
-ft_put/ft_putstr.o: ft_put/ft_putstr.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_put/ft_putstr'
-#  Last modified 2022-05-11 11:43:23.6277203
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_put/ft_putchar.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2296189
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_math/ft_baselen.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2254652
-#  File has been updated.
-#  Successfully updated.
-
-ft_str/ft_strncmp.o: ft_str/ft_strncmp.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strncmp'
-#  Last modified 2022-05-11 11:43:23.9070764
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-ft_str/ft_strnew.o: ft_str/ft_strnew.c includes/libft.h includes/get_next_line.h includes/ft_printf.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ft_str/ft_strnew'
-#  Last modified 2022-05-11 11:43:24.0370605
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 53):
-	@${CC} ${CС_FLAGS} -c $< -o $@
-
-# Not a target:
-ft_gnl/utils_gnl.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-04-29 20:56:34.2061767
-#  File has been updated.
-#  Successfully updated.
+srcs/ft_btree/ft_btree_level_count.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=198/1024=19%, Rehash=0, Collisions=61/1122=5%
+# Load=112/1024=11%, Rehash=0, Collisions=10/244=4%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 2 (0) / strings = 487 / storage = 8230 B / avg = 16 B
-# current buf: size = 8162 B / used = 86 B / count = 4 / avg = 21 B
-# other used: total = 8144 B / count = 483 / avg = 16 B
-# other free: total = 18 B / max = 18 B / min = 18 B / avg = 18 B
+# strcache buffers: 1 (0) / strings = 130 / storage = 2922 B / avg = 22 B
+# current buf: size = 8162 B / used = 2922 B / count = 130 / avg = 22 B
 
-# strcache performance: lookups = 1167 / hit rate = 58%
+# strcache performance: lookups = 163 / hit rate = 20%
 # hash-table stats:
-# Load=487/8192=6%, Rehash=0, Collisions=22/1167=2%
-# Finished Make data base on Wed May 11 11:44:34 2022
+# Load=130/8192=2%, Rehash=0, Collisions=2/163=1%
+# Finished Make data base on Wed May 11 20:16:35 2022
 
  

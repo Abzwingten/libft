@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:11 by rantario          #+#    #+#             */
-/*   Updated: 2022/05/11 11:18:15 by rantario         ###   ########.fr       */
+/*   Updated: 2022/05/11 20:17:20 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ void	ft_striteri(char *s, void (*f)(UI, char *));
 char	*ft_strappend(char *s1, char *s2);
 char	*ft_strnew(size_t size);
 void	save_free(char **str);
-size_t ft_strspn(const char *str, const char *chars);
+size_t  ft_strspn(const char *str, const char *chars);
 
 void	ft_bzero(void *str, size_t n);
 void	*ft_calloc(size_t num, size_t size);
@@ -94,7 +94,7 @@ int		ft_iswhere(int c, char *base);
 int		ft_min(int a, int b);
 int		ft_max(int a, int b);
 
-int		ft_abs(long num);
+long	ft_abs(long num);
 int		ft_baselen(long num, int base);
 int		ft_hexlen(long num);
 float	ft_invsqrt(float x);
@@ -103,6 +103,7 @@ int		ft_power(int num, unsigned int power);
 float	ft_invsqrt(float number);
 float	to_degrees(float radians);
 float	to_radians(float degrees);
+UI      ft_peasant(UI a, UI b);
 
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
@@ -113,6 +114,8 @@ void	ft_putstr(char *s);
 void	ft_putchar(char c);
 void	ft_putendl(char *s);
 void	ft_putnbr(int n);
+
+void	ft_putbinary(int num);
 
 t_list	*ft_lstnew(void *content);
 int		ft_lstsize(t_list *lst);
