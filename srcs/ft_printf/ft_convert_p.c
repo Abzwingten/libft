@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_p.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
+/*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 17:14:20 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/09 17:36:07 by rantario         ###   ########.fr       */
+/*   Updated: 2022/05/11 20:50:15 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-static void ft_convert(t_bin *bin, void *point)
+static void	ft_convert(t_bin *bin, void *point)
 {
 	if (!point)
 	{
@@ -37,7 +37,7 @@ static void ft_convert(t_bin *bin, void *point)
 
 void	ft_convert_p(t_bin *bin, va_list args)
 {
-	void *point;
+	void	*point;
 
 	point = va_arg(args, void *);
 	ft_convert(bin, point);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rantario <rantario@student.21-school.ru>   +#+  +:+       +#+        */
+/*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/09 13:11:38 by rantario          #+#    #+#             */
-/*   Updated: 2022/01/09 13:11:46 by rantario         ###   ########.fr       */
+/*   Updated: 2022/05/11 20:45:57 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@
 # define ZERO		'0'
 # define X			'x'
 
-#define FT_WIDTH 0
+# define FT_WIDTH 0
 # define PRECISION	1
 
 # define FLAG_MINUS	1

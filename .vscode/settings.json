@@ -2,5 +2,6 @@
     "makefile.extensionOutputFolder": "./.vscode",
     "files.associations": {
         "libft.h": "c"
-    }
+    },
+    "terminal.integrated.tabs.enableAnimation": false
 }
