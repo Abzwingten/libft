@@ -18,6 +18,7 @@ FT_GNL 		:=	gnl utils_gnl
 FT_PRINTF	:=	choose convert_c convert_d convert_p convert_pct convert_s convert_u \
 				initializer parser_args parser_asterix parser place_bin printf uitoa_base
 FT_SORT		:=	quick
+FT_BTREE	:=	create_node add_node apply_inflix apply_prefix apply_suffix level_count search_item
 
 SRC 		:= 	$(addsuffix .c, $(addprefix ft_is/ft_is, $(FT_IS)))					\
 				$(addsuffix .c, $(addprefix ft_lst/ft_lst, $(FT_LST)))				\
@@ -31,7 +32,7 @@ SRC 		:= 	$(addsuffix .c, $(addprefix ft_is/ft_is, $(FT_IS)))					\
 				$(addsuffix .c, $(addprefix ft_gnl/, $(FT_GNL)))					\
 				$(addsuffix .c, $(addprefix ft_printf/ft_, $(FT_PRINTF)))			\
 				$(addsuffix .c, $(addprefix ft_sort/ft_sort_, $(FT_SORT)))			\
-
+				$(addsuffix .c, $(addprefix ft_btree/ft_btree_, $(FT_BTREE)))			\
 
 OBJ_LIB		:= 	$(SRC:.c=.o)
 
