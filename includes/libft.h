@@ -6,7 +6,7 @@
 /*   By: rantario <rantario@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/05 16:05:11 by rantario          #+#    #+#             */
-/*   Updated: 2022/05/11 20:44:57 by rantario         ###   ########.fr       */
+/*   Updated: 2022/05/11 22:17:30 by rantario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ size_t	ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strcmp(const char *s1, const char *s2);
 char	*ft_strcpy(char *dest, char *src);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
@@ -61,6 +62,10 @@ char	*ft_strappend(char *s1, char *s2);
 char	*ft_strnew(size_t size);
 void	save_free(char **str);
 size_t	ft_strspn(const char *str, const char *chars);
+int		ft_strequ(char const *s1, char const *s2);
+int		ft_file_ext(char *file, char *ext);
+
+
 
 void	ft_bzero(void *str, size_t n);
 void	*ft_calloc(size_t num, size_t size);

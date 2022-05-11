@@ -1,139 +1,17 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/matt/Documents/GIT/ECOLE42/libft'
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isalnum.c -o srcs/ft_is/ft_isalnum.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isalpha.c -o srcs/ft_is/ft_isalpha.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isascii.c -o srcs/ft_is/ft_isascii.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_iscount.c -o srcs/ft_is/ft_iscount.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isdigit.c -o srcs/ft_is/ft_isdigit.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isin.c -o srcs/ft_is/ft_isin.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isprint.c -o srcs/ft_is/ft_isprint.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isspace.c -o srcs/ft_is/ft_isspace.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isspacenl.c -o srcs/ft_is/ft_isspacenl.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_iswhere.c -o srcs/ft_is/ft_iswhere.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_is/ft_isminmax.c -o srcs/ft_is/ft_isminmax.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstadd_back.c -o srcs/ft_lst/ft_lstadd_back.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstadd_front.c -o srcs/ft_lst/ft_lstadd_front.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstclear.c -o srcs/ft_lst/ft_lstclear.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstdelone.c -o srcs/ft_lst/ft_lstdelone.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstiter.c -o srcs/ft_lst/ft_lstiter.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstlast.c -o srcs/ft_lst/ft_lstlast.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstmap.c -o srcs/ft_lst/ft_lstmap.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstnew.c -o srcs/ft_lst/ft_lstnew.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_lst/ft_lstsize.c -o srcs/ft_lst/ft_lstsize.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_abs.c -o srcs/ft_math/ft_abs.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_nbrlen.c -o srcs/ft_math/ft_nbrlen.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_hexlen.c -o srcs/ft_math/ft_hexlen.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_baselen.c -o srcs/ft_math/ft_baselen.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_power.c -o srcs/ft_math/ft_power.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_degrad.c -o srcs/ft_math/ft_degrad.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_math/ft_peasant.c -o srcs/ft_math/ft_peasant.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_bzero.c -o srcs/ft_mem/ft_bzero.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_calloc.c -o srcs/ft_mem/ft_calloc.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memccpy.c -o srcs/ft_mem/ft_memccpy.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memchr.c -o srcs/ft_mem/ft_memchr.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memcmp.c -o srcs/ft_mem/ft_memcmp.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memcpy.c -o srcs/ft_mem/ft_memcpy.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memfree.c -o srcs/ft_mem/ft_memfree.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memmove.c -o srcs/ft_mem/ft_memmove.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memset.c -o srcs/ft_mem/ft_memset.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memalloc.c -o srcs/ft_mem/ft_memalloc.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_memdel.c -o srcs/ft_mem/ft_memdel.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_mem/ft_intswap.c -o srcs/ft_mem/ft_intswap.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putchar.c -o srcs/ft_put/ft_putchar.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putendl.c -o srcs/ft_put/ft_putendl.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putnbr.c -o srcs/ft_put/ft_putnbr.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putstr.c -o srcs/ft_put/ft_putstr.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putchar_fd.c -o srcs/ft_put/ft_putchar_fd.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putendl_fd.c -o srcs/ft_put/ft_putendl_fd.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putnbr_fd.c -o srcs/ft_put/ft_putnbr_fd.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_put/ft_putstr_fd.c -o srcs/ft_put/ft_putstr_fd.o
- 
-make: *** No rule to make target 'srcs/ft_put/ft_putbinary.o', needed by 'libft.a'.
-
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strchr.c -o srcs/ft_str/ft_strchr.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strcmp.c -o srcs/ft_str/ft_strcmp.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strdup.c -o srcs/ft_str/ft_strdup.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strjoin.c -o srcs/ft_str/ft_strjoin.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strlcat.c -o srcs/ft_str/ft_strlcat.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strlcpy.c -o srcs/ft_str/ft_strlcpy.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strcpy.c -o srcs/ft_str/ft_strcpy.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strlen.c -o srcs/ft_str/ft_strlen.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strmapi.c -o srcs/ft_str/ft_strmapi.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strncmp.c -o srcs/ft_str/ft_strncmp.o
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strnstr.c -o srcs/ft_str/ft_strnstr.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strrchr.c -o srcs/ft_str/ft_strrchr.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strtrim.c -o srcs/ft_str/ft_strtrim.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_striteri.c -o srcs/ft_str/ft_striteri.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strappend.c -o srcs/ft_str/ft_strappend.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strnew.c -o srcs/ft_str/ft_strnew.o
- 
-gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strspn.c -o srcs/ft_str/ft_strspn.o
+gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_strequ.c -o srcs/ft_str/ft_strequ.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_substr.c -o srcs/ft_str/ft_substr.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_split.c -o srcs/ft_str/ft_split.o
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_split_str.c -o srcs/ft_str/ft_split_str.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_save_free.c -o srcs/ft_str/ft_save_free.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_linebreak.c -o srcs/ft_str/ft_linebreak.o
+gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_str/ft_file_ext.c -o srcs/ft_str/ft_file_ext.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_to/ft_tolower.c -o srcs/ft_to/ft_tolower.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_to/ft_toupper.c -o srcs/ft_to/ft_toupper.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_to/ft_atoi.c -o srcs/ft_to/ft_atoi.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_to/ft_itoa.c -o srcs/ft_to/ft_itoa.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_gnl/gnl.c -o srcs/ft_gnl/gnl.o
@@ -143,11 +21,9 @@ gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_gnl/utils_gnl.c -o srcs/ft
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_choose.c -o srcs/ft_printf/ft_choose.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_convert_c.c -o srcs/ft_printf/ft_convert_c.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_convert_d.c -o srcs/ft_printf/ft_convert_d.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_convert_p.c -o srcs/ft_printf/ft_convert_p.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_convert_pct.c -o srcs/ft_printf/ft_convert_pct.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_convert_s.c -o srcs/ft_printf/ft_convert_s.o
@@ -158,11 +34,9 @@ gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_initializer.c -o
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_parser_args.c -o srcs/ft_printf/ft_parser_args.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_parser_asterix.c -o srcs/ft_printf/ft_parser_asterix.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_parser.c -o srcs/ft_printf/ft_parser.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_place_bin.c -o srcs/ft_printf/ft_place_bin.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_printf.c -o srcs/ft_printf/ft_printf.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_printf/ft_uitoa_base.c -o srcs/ft_printf/ft_uitoa_base.o
@@ -174,13 +48,14 @@ gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_create_node
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_add_node.c -o srcs/ft_btree/ft_btree_add_node.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_apply_inflix.c -o srcs/ft_btree/ft_btree_apply_inflix.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_apply_prefix.c -o srcs/ft_btree/ft_btree_apply_prefix.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_apply_suffix.c -o srcs/ft_btree/ft_btree_apply_suffix.o
  
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_level_count.c -o srcs/ft_btree/ft_btree_level_count.o
- 
 gcc -Wall -Wextra -Werror -Iincludes/ -O2  -c srcs/ft_btree/ft_btree_search_item.c -o srcs/ft_btree/ft_btree_search_item.o
+ 
+ar rcs libft.a srcs/ft_is/ft_isalnum.o srcs/ft_is/ft_isalpha.o srcs/ft_is/ft_isascii.o srcs/ft_is/ft_iscount.o srcs/ft_is/ft_isdigit.o srcs/ft_is/ft_isin.o srcs/ft_is/ft_isprint.o srcs/ft_is/ft_isspace.o srcs/ft_is/ft_isspacenl.o srcs/ft_is/ft_iswhere.o srcs/ft_is/ft_isminmax.o srcs/ft_lst/ft_lstadd_back.o srcs/ft_lst/ft_lstadd_front.o srcs/ft_lst/ft_lstclear.o srcs/ft_lst/ft_lstdelone.o srcs/ft_lst/ft_lstiter.o srcs/ft_lst/ft_lstlast.o srcs/ft_lst/ft_lstmap.o srcs/ft_lst/ft_lstnew.o srcs/ft_lst/ft_lstsize.o srcs/ft_math/ft_abs.o srcs/ft_math/ft_nbrlen.o srcs/ft_math/ft_hexlen.o srcs/ft_math/ft_baselen.o srcs/ft_math/ft_power.o srcs/ft_math/ft_degrad.o srcs/ft_math/ft_peasant.o srcs/ft_mem/ft_bzero.o srcs/ft_mem/ft_calloc.o srcs/ft_mem/ft_memccpy.o srcs/ft_mem/ft_memchr.o srcs/ft_mem/ft_memcmp.o srcs/ft_mem/ft_memcpy.o srcs/ft_mem/ft_memfree.o srcs/ft_mem/ft_memmove.o srcs/ft_mem/ft_memset.o srcs/ft_mem/ft_memalloc.o srcs/ft_mem/ft_memdel.o srcs/ft_mem/ft_intswap.o srcs/ft_put/ft_putchar.o srcs/ft_put/ft_putendl.o srcs/ft_put/ft_putnbr.o srcs/ft_put/ft_putstr.o srcs/ft_put/ft_putchar_fd.o srcs/ft_put/ft_putendl_fd.o srcs/ft_put/ft_putnbr_fd.o srcs/ft_put/ft_putstr_fd.o srcs/ft_put/ft_putbinary.o srcs/ft_str/ft_strchr.o srcs/ft_str/ft_strcmp.o srcs/ft_str/ft_strdup.o srcs/ft_str/ft_strjoin.o srcs/ft_str/ft_strlcat.o srcs/ft_str/ft_strlcpy.o srcs/ft_str/ft_strcpy.o srcs/ft_str/ft_strlen.o srcs/ft_str/ft_strmapi.o srcs/ft_str/ft_strncmp.o srcs/ft_str/ft_strnstr.o srcs/ft_str/ft_strrchr.o srcs/ft_str/ft_strtrim.o srcs/ft_str/ft_striteri.o srcs/ft_str/ft_strappend.o srcs/ft_str/ft_strnew.o srcs/ft_str/ft_strspn.o srcs/ft_str/ft_strequ.o srcs/ft_str/ft_substr.o srcs/ft_str/ft_split.o srcs/ft_str/ft_split_str.o srcs/ft_str/ft_save_free.o srcs/ft_str/ft_linebreak.o srcs/ft_str/ft_file_ext.o srcs/ft_to/ft_tolower.o srcs/ft_to/ft_toupper.o srcs/ft_to/ft_atoi.o srcs/ft_to/ft_itoa.o srcs/ft_gnl/gnl.o srcs/ft_gnl/utils_gnl.o srcs/ft_printf/ft_choose.o srcs/ft_printf/ft_convert_c.o srcs/ft_printf/ft_convert_d.o srcs/ft_printf/ft_convert_p.o srcs/ft_printf/ft_convert_pct.o srcs/ft_printf/ft_convert_s.o srcs/ft_printf/ft_convert_u.o srcs/ft_printf/ft_initializer.o srcs/ft_printf/ft_parser_args.o srcs/ft_printf/ft_parser_asterix.o srcs/ft_printf/ft_parser.o srcs/ft_printf/ft_place_bin.o srcs/ft_printf/ft_printf.o srcs/ft_printf/ft_uitoa_base.o srcs/ft_sort/ft_sort_quick.o srcs/ft_btree/ft_btree_create_node.o srcs/ft_btree/ft_btree_add_node.o srcs/ft_btree/ft_btree_apply_inflix.o srcs/ft_btree/ft_btree_apply_prefix.o srcs/ft_btree/ft_btree_apply_suffix.o srcs/ft_btree/ft_btree_level_count.o srcs/ft_btree/ft_btree_search_item.o
+echo -e "\033[0;45mMEGA LIBFT DONE\033[0m "
 make: Leaving directory '/home/matt/Documents/GIT/ECOLE42/libft'
  
